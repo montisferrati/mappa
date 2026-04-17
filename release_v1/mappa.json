@@ -1,0 +1,1745 @@
+{
+  "_metaDatiJson": {
+    "nomeJson": "mappa",
+    "repoJson": "mappa",
+    "note": "Release v0.0.1"
+  },
+  "version": 1,
+  "minAppVersion": 1,
+  "generatedAt": "2026-04-17T12:00:00Z",
+  "terrain":{
+    "layer":{
+      "id": "TL_Grass",
+      "source": "local"
+    }
+  },
+  "edifici": 
+  [
+    {
+      "id": "casale",
+      "address": "CastelloMedio",
+      "label": "Casale",
+
+      "critical": true,
+      "source": "local",
+
+      "ui": {
+        "hasButton": true,
+        "buttonSize": { "w": 140, "h": 40 }
+      },
+
+      "content": {
+        "newsFeed": "paesi/bandoCasale"
+      },
+
+      "transform": {
+        "position": { "x": 128, "y": 6.0, "z": 254 },
+        "rotation": { "x": 0, "y": 150, "z": 0 },
+        "scale":    { "x":1.2, "y": 1.2, "z":1.2 }
+      }
+    },
+	{
+      "id": "casale_stendardo",
+      "address": "Stendardo_C",
+      "label": "Casale",
+
+      "critical": true,
+      "source": "local",
+
+      "ui": {
+        "hasButton": false,
+        "buttonSize": { "w": 140, "h": 40 }
+      },
+
+      "content": {
+        "newsFeed": "paesi/bandoCasale"
+      },
+
+      "transform": {
+        "position": { "x": 135, "y": 6.0, "z": 260 },
+        "rotation": { "x": 0, "y": 180, "z": 0 },
+        "scale":    { "x":1.5, "y": 1.5, "z":1.5 }
+      }
+    },
+	{
+      "id": "chivasso",
+      "address": "CastelloExa",
+      "label": "Chivasso",
+
+      "critical": true,
+      "source": "local",
+
+      "ui": {
+        "hasButton": true,
+        "buttonSize": { "w": 170, "h": 40 }
+      },
+
+      "content": {
+        "newsFeed": "paesi/bandoChivasso"
+      },
+
+      "transform": {
+        "position": { "x": -744.2, "y": 6.0, "z": 370.5 },
+        "rotation": { "x": 0, "y": 180, "z": 0 },
+        "scale":    { "x":1.3, "y": 1.3, "z":1.3 }
+      }
+    },
+	{
+      "id": "chivasso_stendardo",
+      "address": "Stendardo_C",
+      "label": "Chivasso",
+
+      "critical": true,
+      "source": "local",
+
+      "ui": {
+        "hasButton": false,
+        "buttonSize": { "w": 170, "h": 40 }
+      },
+
+      "content": {
+        "newsFeed": "paesi/bandoChivasso"
+      },
+
+      "transform": {
+        "position": { "x": -754.2, "y": 6.0, "z": 370.5 },
+        "rotation": { "x": 0, "y": 140, "z": 0 },
+        "scale":    { "x":1.5, "y": 1.5, "z":1.5 }
+      }
+    },
+	{
+      "id": "moncalvo",
+      "address": "CastelloMedio",
+      "label": "Moncalvo",
+
+      "critical": true,
+      "source": "local",
+
+      "ui": {
+        "hasButton": true,
+        "buttonSize": { "w": 170, "h": 40 }
+      },
+
+      "content": {
+        "newsFeed": "paesi/bandoMoncalvo"
+      },
+
+      "transform": {
+        "position": { "x": -151.7, "y": 6.0, "z": 64.5 },
+        "rotation": { "x": 0, "y": 190, "z": 0 },
+        "scale":    { "x":1.2, "y": 1.2, "z":1.2 }
+      }
+    },
+	{
+      "id": "moncalvo_stendardo",
+      "address": "Stendardo_C",
+      "label": "Moncalvo",
+
+      "critical": true,
+      "source": "local",
+
+      "ui": {
+        "hasButton": false,
+        "buttonSize": { "w": 170, "h": 40 }
+      },
+
+      "content": {
+        "newsFeed": "paesi/bandoMoncalvo"
+      },
+
+      "transform": {
+        "position": { "x": -144.7, "y": 6.0, "z": 70.5 },
+        "rotation": { "x": 0, "y": 170, "z": 0 },
+        "scale":    { "x":1.5, "y": 1.5, "z":1.5 }
+      }
+    },
+	{
+      "id": "pontestura",
+      "address": "CastelloMedio",
+      "label": "Pontestura",
+
+      "critical": true,
+      "source": "local",
+
+      "ui": {
+        "hasButton": true,
+        "buttonSize": { "w": 190, "h": 40 }
+      },
+
+      "content": {
+        "newsFeed": "paesi/bandoPontestura"
+      },
+
+      "transform": {
+        "position": { "x": -48.1, "y": 6.0, "z": 270.3 },
+        "rotation": { "x": 0, "y": 130, "z": 0 },
+        "scale":    { "x":1.2, "y": 1.2, "z":1.2 }
+      }
+    },
+	{
+      "id": "pontestura_stendardo",
+      "address": "Stendardo_C",
+      "label": "Pontestura",
+
+      "critical": true,
+      "source": "local",
+
+      "ui": {
+        "hasButton": false,
+        "buttonSize": { "w": 190, "h": 40 }
+      },
+
+      "content": {
+        "newsFeed": "paesi/bandoPontestura"
+      },
+
+      "transform": {
+        "position": { "x": -58.1, "y": 6.0, "z": 270.3 },
+        "rotation": { "x": 0, "y": 130, "z": 0 },
+        "scale":    { "x":1.5, "y": 1.5, "z":1.5 }
+      }
+    },
+	{
+      "id": "acqui",
+      "address": "Stendardo_C",
+      "label": "Acqui",
+
+      "critical": true,
+      "source": "local",
+
+      "ui": {
+        "hasButton": true,
+        "buttonSize": { "w": 130, "h": 40 }
+      },
+
+      "content": {
+        "newsFeed": "paesi/bandoAcqui"
+      },
+
+      "transform": {
+        "position": { "x": 174.2, "y": 6.0, "z": -776.4 },
+        "rotation": { "x": 0, "y": 20, "z": 0 },
+        "scale":    { "x":1.5, "y": 1.5, "z":1.5 }
+      }
+    },
+	{
+      "id": "alfiano_natta",
+      "address": "Stendardo_C",
+      "label": "Alfiano",
+
+      "critical": true,
+      "source": "local",
+
+      "ui": {
+        "hasButton": true,
+        "buttonSize": { "w": 140, "h": 40 }
+      },
+
+      "content": {
+        "newsFeed": "paesi/bandoAlfiano"
+      },
+
+      "transform": {
+        "position": { "x": -246.9, "y": 6.0, "z": 58.3 },
+        "rotation": { "x": 0, "y": 270, "z": 0 },
+        "scale":    { "x":1.5, "y": 1.5, "z":1.5 }
+      }
+    },
+	{
+      "id": "altavilla_monferrato",
+      "address": "Stendardo_C",
+      "label": "Altavilla",
+
+      "critical": true,
+      "source": "local",
+
+      "ui": {
+        "hasButton": true,
+        "buttonSize": { "w": 150, "h": 40 }
+      },
+
+      "content": {
+        "newsFeed": "paesi/bandoAltavilla"
+      },
+
+      "transform": {
+        "position": { "x": 16.1, "y": 6.0, "z": -65.6 },
+        "rotation": { "x": 0, "y": 0, "z": 0 },
+        "scale":    { "x":1.5, "y": 1.5, "z":1.5 }
+      }
+    },
+	{
+      "id": "balzola",
+      "address": "Stendardo_C",
+      "label": "Balzola",
+
+      "critical": true,
+      "source": "local",
+
+      "ui": {
+        "hasButton": true,
+        "buttonSize": { "w": 150, "h": 40 }
+      },
+
+      "content": {
+        "newsFeed": "paesi/bandoBalzola"
+      },
+
+      "transform": {
+        "position": { "x": 53.4, "y": 6.0, "z": 360 },
+        "rotation": { "x": 0, "y": 0, "z": 0 },
+        "scale":    { "x":1.5, "y": 1.5, "z":1.5 }
+      }
+    },
+	{
+      "id": "bassignana",
+      "address": "Stendardo_C",
+      "label": "Bassignana",
+
+      "critical": true,
+      "source": "local",
+
+      "ui": {
+        "hasButton": true,
+        "buttonSize": { "w": 200, "h": 40 }
+      },
+
+      "content": {
+        "newsFeed": "paesi/bandoBassignana"
+      },
+
+      "transform": {
+        "position": { "x": 579, "y": 6.0, "z": -44.9 },
+        "rotation": { "x": 0, "y": 180, "z": 0 },
+        "scale":    { "x":1.5, "y": 1.5, "z":1.5 }
+      }
+    },
+	{
+      "id": "borgo_san_martino",
+      "address": "Stendardo_C",
+      "label": "Borgo San Martino",
+
+      "critical": true,
+      "source": "local",
+
+      "ui": {
+        "hasButton": true,
+        "buttonSize": { "w": 290, "h": 40 }
+      },
+
+      "content": {
+        "newsFeed": "paesi/bandoBorgoSM"
+      },
+
+      "transform": {
+        "position": { "x": 248.8, "y": 6.0, "z": 145.3 },
+        "rotation": { "x": 0, "y": 160, "z": 0 },
+        "scale":    { "x":1.5, "y": 1.5, "z":1.5 }
+      }
+    },
+	{
+      "id": "bozzole",
+      "address": "Stendardo_C",
+      "label": "Bozzole",
+
+      "critical": true,
+      "source": "local",
+
+      "ui": {
+        "hasButton": true,
+        "buttonSize": { "w": 150, "h": 40 }
+      },
+
+      "content": {
+        "newsFeed": "paesi/bandoBozzole"
+      },
+
+      "transform": {
+        "position": { "x": 366, "y": 6.0, "z": 101.6 },
+        "rotation": { "x": 0, "y": 250, "z": 0 },
+        "scale":    { "x":1.5, "y": 1.5, "z":1.5 }
+      }
+    },
+	{
+      "id": "calliano",
+      "address": "Stendardo_C",
+      "label": "Calliano",
+
+      "critical": true,
+      "source": "local",
+
+      "ui": {
+        "hasButton": true,
+        "buttonSize": { "w": 160, "h": 40 }
+      },
+
+      "content": {
+        "newsFeed": "paesi/bandoCalliano"
+      },
+
+      "transform": {
+        "position": { "x": -169.6, "y": 6.0, "z": -34.2 },
+        "rotation": { "x": 0, "y": 120, "z": 0 },
+        "scale":    { "x":1.5, "y": 1.5, "z":1.5 }
+      }
+    },
+	{
+      "id": "camagna_monferrato",
+      "address": "Stendardo_C",
+      "label": "Camagna",
+
+      "critical": true,
+      "source": "local",
+
+      "ui": {
+        "hasButton": true,
+        "buttonSize": { "w": 170, "h": 40 }
+      },
+
+      "content": {
+        "newsFeed": "paesi/bandoCamagna"
+      },
+
+      "transform": {
+        "position": { "x": 102.3, "y": 6.0, "z": -11.1 },
+        "rotation": { "x": 0, "y": 0, "z": 0 },
+        "scale":    { "x":1.5, "y": 1.5, "z":1.5 }
+      }
+    },
+	{
+      "id": "camino",
+      "address": "Stendardo_C",
+      "label": "Camino",
+
+      "critical": true,
+      "source": "local",
+
+      "ui": {
+        "hasButton": true,
+        "buttonSize": { "w": 150, "h": 40 }
+      },
+
+      "content": {
+        "newsFeed": "paesi/bandoCamino"
+      },
+
+      "transform": {
+        "position": { "x": -131.8, "y": 6.0, "z": 308.3 },
+        "rotation": { "x": 0, "y": 0, "z": 0 },
+        "scale":    { "x":1.5, "y": 1.5, "z":1.5 }
+      }
+    },
+	{
+      "id": "casorzo",
+      "address": "Stendardo_C",
+      "label": "Casorzo",
+
+      "critical": true,
+      "source": "local",
+
+      "ui": {
+        "hasButton": true,
+        "buttonSize": { "w": 155, "h": 40 }
+      },
+
+      "content": {
+        "newsFeed": "paesi/bandoCasorzo"
+      },
+
+      "transform": {
+        "position": { "x": -48.2, "y": 6.0, "z": 0.2 },
+        "rotation": { "x": 0, "y": 70, "z": 0 },
+        "scale":    { "x":1.5, "y": 1.5, "z":1.5 }
+      }
+    },
+	{
+      "id": "castagnole",
+      "address": "Stendardo_C",
+      "label": "Castagnole",
+
+      "critical": true,
+      "source": "local",
+
+      "ui": {
+        "hasButton": true,
+        "buttonSize": { "w": 195, "h": 40 }
+      },
+
+      "content": {
+        "newsFeed": "paesi/bandoCastagnole"
+      },
+
+      "transform": {
+        "position": { "x": -86.1, "y": 6.0, "z": -140.4 },
+        "rotation": { "x": 0, "y": 45, "z": 0 },
+        "scale":    { "x":1.5, "y": 1.5, "z":1.5 }
+      }
+    },
+	{
+      "id": "castelletto_merli",
+      "address": "Stendardo_C",
+      "label": "Castelletto de' Merli",
+
+      "critical": true,
+      "source": "local",
+
+      "ui": {
+        "hasButton": true,
+        "buttonSize": { "w": 305, "h": 40 }
+      },
+
+      "content": {
+        "newsFeed": "paesi/bandoCastellettoMerli"
+      },
+
+      "transform": {
+        "position": { "x": -209.5, "y": 6.0, "z": 144.6 },
+        "rotation": { "x": 0, "y": 30, "z": 0 },
+        "scale":    { "x":1.5, "y": 1.5, "z":1.5 }
+      }
+    },
+	{
+      "id": "castelletto_monferrato",
+      "address": "Stendardo_C",
+      "label": "Castelletto",
+
+      "critical": true,
+      "source": "local",
+
+      "ui": {
+        "hasButton": true,
+        "buttonSize": { "w": 190, "h": 40 }
+      },
+
+      "content": {
+        "newsFeed": "paesi/bandoCastellettoMonf"
+      },
+
+      "transform": {
+        "position": { "x": 311.3, "y": 6.0, "z": -95.3 },
+        "rotation": { "x": 0, "y": 140, "z": 0 },
+        "scale":    { "x":1.5, "y": 1.5, "z":1.5 }
+      }
+    },
+	{
+      "id": "castello_di_annone",
+      "address": "TorreA",
+      "label": "Castel d'Annone",
+
+      "critical": true,
+      "source": "local",
+
+      "ui": {
+        "hasButton": true,
+        "buttonSize": { "w": 260, "h": 40 }
+      },
+
+      "content": {
+        "newsFeed": "paesi/bandoCastelAnnone"
+      },
+
+      "transform": {
+        "position": { "x": -77.8, "y": 6.0, "z": -320.6 },
+        "rotation": { "x": 0, "y": 0, "z": 0 },
+        "scale":    { "x":0.3, "y": 0.3, "z":0.3 }
+      }
+    },
+	{
+      "id": "cella_monte",
+      "address": "Stendardo_C",
+      "label": "Cella",
+
+      "critical": true,
+      "source": "local",
+
+      "ui": {
+        "hasButton": true,
+        "buttonSize": { "w": 120, "h": 40 }
+      },
+
+      "content": {
+        "newsFeed": "paesi/bandoCella"
+      },
+
+      "transform": {
+        "position": { "x": 41.4, "y": 6.0, "z": 113.3 },
+        "rotation": { "x": 0, "y": 160, "z": 0 },
+        "scale":    { "x":1.5, "y": 1.5, "z":1.5 }
+      }
+    },
+	{
+      "id": "cereseto",
+      "address": "Stendardo_C",
+      "label": "Cereseto",
+
+      "critical": true,
+      "source": "local",
+
+      "ui": {
+        "hasButton": true,
+        "buttonSize": { "w": 170, "h": 40 }
+      },
+
+      "content": {
+        "newsFeed": "paesi/bandoCereseto"
+      },
+
+      "transform": {
+        "position": { "x": -74.3, "y": 6.0, "z": 142.1 },
+        "rotation": { "x": 0, "y": 10, "z": 0 },
+        "scale":    { "x":1.5, "y": 1.5, "z":1.5 }
+      }
+    },
+	{
+      "id": "cerrina",
+      "address": "Stendardo_C",
+      "label": "Cerrina",
+
+      "critical": true,
+      "source": "local",
+
+      "ui": {
+        "hasButton": true,
+        "buttonSize": { "w": 150, "h": 40 }
+      },
+
+      "content": {
+        "newsFeed": "paesi/bandoCerrina"
+      },
+
+      "transform": {
+        "position": { "x": -235.3, "y": 6.0, "z": 216.5 },
+        "rotation": { "x": 0, "y": 140, "z": 0 },
+        "scale":    { "x":1.5, "y": 1.5, "z":1.5 }
+      }
+    },
+	{
+      "id": "cerro_tanaro",
+      "address": "Stendardo_C",
+      "label": "Cerro",
+
+      "critical": true,
+      "source": "local",
+
+      "ui": {
+        "hasButton": true,
+        "buttonSize": { "w": 130, "h": 40 }
+      },
+
+      "content": {
+        "newsFeed": "paesi/bandoCerroTanaro"
+      },
+
+      "transform": {
+        "position": { "x": -1.4, "y": 6.0, "z": -340.8 },
+        "rotation": { "x": 0, "y": 65, "z": 0 },
+        "scale":    { "x":1.5, "y": 1.5, "z":1.5 }
+      }
+    },
+	{
+      "id": "coniolo",
+      "address": "Stendardo_C",
+      "label": "Coniolo",
+
+      "critical": true,
+      "source": "local",
+
+      "ui": {
+        "hasButton": true,
+        "buttonSize": { "w": 150, "h": 40 }
+      },
+
+      "content": {
+        "newsFeed": "paesi/bandoConiolo"
+      },
+
+      "transform": {
+        "position": { "x": 8, "y": 6.0, "z": 279.7 },
+        "rotation": { "x": 0, "y": 80, "z": 0 },
+        "scale":    { "x":1.5, "y": 1.5, "z":1.5 }
+      }
+    },
+	{
+      "id": "conzano",
+      "address": "Stendardo_C",
+      "label": "Conzano",
+
+      "critical": true,
+      "source": "local",
+
+      "ui": {
+        "hasButton": true,
+        "buttonSize": { "w": 170, "h": 40 }
+      },
+
+      "content": {
+        "newsFeed": "paesi/bandoConzano"
+      },
+
+      "transform": {
+        "position": { "x": 144.8, "y": 6.0, "z": -6.7 },
+        "rotation": { "x": 0, "y": 220, "z": 0 },
+        "scale":    { "x":1.5, "y": 1.5, "z":1.5 }
+      }
+    },
+	{
+      "id": "cuccaro",
+      "address": "Stendardo_C",
+      "label": "Cuccaro",
+
+      "critical": true,
+      "source": "local",
+
+      "ui": {
+        "hasButton": true,
+        "buttonSize": { "w": 160, "h": 40 }
+      },
+
+      "content": {
+        "newsFeed": "paesi/bandoCuccaro"
+      },
+
+      "transform": {
+        "position": { "x": 145, "y": 6.0, "z": -72.2 },
+        "rotation": { "x": 0, "y": 0, "z": 0 },
+        "scale":    { "x":1.5, "y": 1.5, "z":1.5 }
+      }
+    },
+	{
+      "id": "frassinello",
+      "address": "Stendardo_C",
+      "label": "Frassinello",
+
+      "critical": true,
+      "source": "local",
+
+      "ui": {
+        "hasButton": true,
+        "buttonSize": { "w": 190, "h": 40 }
+      },
+
+      "content": {
+        "newsFeed": "paesi/bandoFrassinello"
+      },
+
+      "transform": {
+        "position": { "x": 36.4, "y": 6.0, "z": 20.5 },
+        "rotation": { "x": 0, "y": 0, "z": 0 },
+        "scale":    { "x":1.5, "y": 1.5, "z":1.5 }
+      }
+    },
+	{
+      "id": "frassineto_po",
+      "address": "Stendardo_C",
+      "label": "Frassineto",
+
+      "critical": true,
+      "source": "local",
+
+      "ui": {
+        "hasButton": true,
+        "buttonSize": { "w": 190, "h": 40 }
+      },
+
+      "content": {
+        "newsFeed": "paesi/bandoFrassineto"
+      },
+
+      "transform": {
+        "position": { "x": 265.3, "y": 6.0, "z": 249.8 },
+        "rotation": { "x": 0, "y": 0, "z": 0 },
+        "scale":    { "x":1.5, "y": 1.5, "z":1.5 }
+      }
+    },
+	{
+      "id": "fubine",
+      "address": "Stendardo_C",
+      "label": "Fubine",
+
+      "critical": true,
+      "source": "local",
+
+      "ui": {
+        "hasButton": true,
+        "buttonSize": { "w": 140, "h": 40 }
+      },
+
+      "content": {
+        "newsFeed": "paesi/bandoFubine"
+      },
+
+      "transform": {
+        "position": { "x": 91.2, "y": 6.0, "z": -126.4 },
+        "rotation": { "x": 0, "y": 0, "z": 0 },
+        "scale":    { "x":1.5, "y": 1.5, "z":1.5 }
+      }
+    },
+	{
+      "id": "gabiano",
+      "address": "Stendardo_C",
+      "label": "Gabiano",
+
+      "critical": true,
+      "source": "local",
+
+      "ui": {
+        "hasButton": true,
+        "buttonSize": { "w": 160, "h": 40 }
+      },
+
+      "content": {
+        "newsFeed": "paesi/bandoGabiano"
+      },
+
+      "transform": {
+        "position": { "x": -270.2, "y": 6.0, "z": 304.1 },
+        "rotation": { "x": 0, "y": 0, "z": 0 },
+        "scale":    { "x":1.5, "y": 1.5, "z":1.5 }
+      }
+    },
+	{
+      "id": "giarole",
+      "address": "Stendardo_C",
+      "label": "Giarole",
+
+      "critical": true,
+      "source": "local",
+
+      "ui": {
+        "hasButton": true,
+        "buttonSize": { "w": 140, "h": 40 }
+      },
+
+      "content": {
+        "newsFeed": "paesi/bandoGiarole"
+      },
+
+      "transform": {
+        "position": { "x": 315.8, "y": 6.0, "z": 86 },
+        "rotation": { "x": 0, "y": 0, "z": 0 },
+        "scale":    { "x":1.5, "y": 1.5, "z":1.5 }
+      }
+    },
+	{
+      "id": "lignano",
+      "address": "Stendardo_C",
+      "label": "Lignano",
+
+      "critical": true,
+      "source": "local",
+
+      "ui": {
+        "hasButton": true,
+        "buttonSize": { "w": 160, "h": 40 }
+      },
+
+      "content": {
+        "newsFeed": "paesi/bandoLignano"
+      },
+
+      "transform": {
+        "position": { "x": 73.5, "y": 6.0, "z": 32.8 },
+        "rotation": { "x": 0, "y": 0, "z": 0 },
+        "scale":    { "x":1.5, "y": 1.5, "z":1.5 }
+      }
+    },
+	{
+      "id": "lu",
+      "address": "Stendardo_C",
+      "label": "Lu",
+
+      "critical": true,
+      "source": "local",
+
+      "ui": {
+        "hasButton": true,
+        "buttonSize": { "w": 90, "h": 40 }
+      },
+
+      "content": {
+        "newsFeed": "paesi/bandoLu"
+      },
+
+      "transform": {
+        "position": { "x": 186.2, "y": 6.0, "z": -48.7 },
+        "rotation": { "x": 0, "y": 0, "z": 0 },
+        "scale":    { "x":1.5, "y": 1.5, "z":1.5 }
+      }
+    },
+	{
+      "id": "mirabello",
+      "address": "Stendardo_C",
+      "label": "Mirabello",
+
+      "critical": true,
+      "source": "local",
+
+      "ui": {
+        "hasButton": true,
+        "buttonSize": { "w": 170, "h": 40 }
+      },
+
+      "content": {
+        "newsFeed": "paesi/bandoMirabello"
+      },
+
+      "transform": {
+        "position": { "x": 278.6, "y": 6.0, "z": 47.5 },
+        "rotation": { "x": 0, "y": 0, "z": 0 },
+        "scale":    { "x":1.5, "y": 1.5, "z":1.5 }
+      }
+    },
+	{
+      "id": "mombello",
+      "address": "Stendardo_C",
+      "label": "Mombello",
+
+      "critical": true,
+      "source": "local",
+
+      "ui": {
+        "hasButton": true,
+        "buttonSize": { "w": 180, "h": 40 }
+      },
+
+      "content": {
+        "newsFeed": "paesi/bandoMombello"
+      },
+
+      "transform": {
+        "position": { "x": -178.9, "y": 6.0, "z": 243.9 },
+        "rotation": { "x": 0, "y": 0, "z": 0 },
+        "scale":    { "x":1.5, "y": 1.5, "z":1.5 }
+      }
+    },
+	{
+      "id": "montemagno",
+      "address": "Stendardo_C",
+      "label": "Montemagno",
+
+      "critical": true,
+      "source": "local",
+
+      "ui": {
+        "hasButton": true,
+        "buttonSize": { "w": 210, "h": 40 }
+      },
+
+      "content": {
+        "newsFeed": "paesi/bandoMontemagno"
+      },
+
+      "transform": {
+        "position": { "x": -62.1, "y": 6.0, "z": -88.9 },
+        "rotation": { "x": 0, "y": 0, "z": 0 },
+        "scale":    { "x":1.5, "y": 1.5, "z":1.5 }
+      }
+    },
+	{
+      "id": "morano",
+      "address": "Stendardo_C",
+      "label": "Morano",
+
+      "critical": true,
+      "source": "local",
+
+      "ui": {
+        "hasButton": true,
+        "buttonSize": { "w": 140, "h": 40 }
+      },
+
+      "content": {
+        "newsFeed": "paesi/bandoMorano"
+      },
+
+      "transform": {
+        "position": { "x": 0, "y": 6.0, "z": 312.6 },
+        "rotation": { "x": 0, "y": 0, "z": 0 },
+        "scale":    { "x":1.5, "y": 1.5, "z":1.5 }
+      }
+    },
+	{
+      "id": "murisengo",
+      "address": "Stendardo_C",
+      "label": "Murisengo",
+
+      "critical": true,
+      "source": "local",
+
+      "ui": {
+        "hasButton": true,
+        "buttonSize": { "w": 180, "h": 40 }
+      },
+
+      "content": {
+        "newsFeed": "paesi/bandoMurisengo"
+      },
+
+      "transform": {
+        "position": { "x": -351.9, "y": 6.0, "z": 138.3 },
+        "rotation": { "x": 0, "y": 0, "z": 0 },
+        "scale":    { "x": 1.5, "y": 1.5, "z": 1.5 }
+      }
+    },
+	{
+      "id": "occimiano",
+      "address": "Stendardo_C",
+      "label": "Occimiano",
+
+      "critical": true,
+      "source": "local",
+
+      "ui": {
+        "hasButton": true,
+        "buttonSize": { "w": 185, "h": 40 }
+      },
+
+      "content": {
+        "newsFeed": "paesi/bandoOccimiano"
+      },
+
+      "transform": {
+        "position": { "x": 221.4, "y": 6.0, "z": 85.3 },
+        "rotation": { "x": 0, "y": 0, "z": 0 },
+        "scale":    { "x":1.5, "y": 1.5, "z":1.5 }
+      }
+    },
+	{
+      "id": "odalengo_grande",
+      "address": "Stendardo_C",
+      "label": "Odalengo Grande",
+
+      "critical": true,
+      "source": "local",
+
+      "ui": {
+        "hasButton": true,
+        "buttonSize": { "w": 270, "h": 40 }
+      },
+
+      "content": {
+        "newsFeed": "paesi/bandoOdalengoG"
+      },
+
+      "transform": {
+        "position": { "x": -309.2, "y": 6.0, "z": 191.7 },
+        "rotation": { "x": 0, "y": 310, "z": 0 },
+        "scale":    { "x":1.5, "y": 1.5, "z":1.5 }
+      }
+    },
+	{
+      "id": "odalengo_piccolo",
+      "address": "Stendardo_C",
+      "label": "Odalengo Piccolo",
+
+      "critical": true,
+      "source": "local",
+
+      "ui": {
+        "hasButton": true,
+        "buttonSize": { "w": 270, "h": 40 }
+      },
+
+      "content": {
+        "newsFeed": "paesi/bandoOdalengoP"
+      },
+
+      "transform": {
+        "position": { "x": -243.6, "y": 6.0, "z": 107.6 },
+        "rotation": { "x": 0, "y": 310, "z": 0 },
+        "scale":    { "x":1.5, "y": 1.5, "z":1.5 }
+      }
+    },
+	{
+      "id": "olivola",
+      "address": "Stendardo_C",
+      "label": "Olivola",
+
+      "critical": true,
+      "source": "local",
+
+      "ui": {
+        "hasButton": true,
+        "buttonSize": { "w": 150, "h": 40 }
+      },
+
+      "content": {
+        "newsFeed": "paesi/bandoOlivola"
+      },
+
+      "transform": {
+        "position": { "x": 3.9, "y": 6.0, "z": 31 },
+        "rotation": { "x": 0, "y": 0, "z": 0 },
+        "scale":    { "x":1.5, "y": 1.5, "z":1.5 }
+      }
+    },
+	{
+      "id": "ozzano",
+      "address": "Stendardo_C",
+      "label": "Ozzano",
+
+      "critical": true,
+      "source": "local",
+
+      "ui": {
+        "hasButton": true,
+        "buttonSize": { "w": 150, "h": 40 }
+      },
+
+      "content": {
+        "newsFeed": "paesi/bandoOzzano"
+      },
+
+      "transform": {
+        "position": { "x": 18.4, "y": 6.0, "z": 178.1 },
+        "rotation": { "x": 0, "y": 0, "z": 0 },
+        "scale":    { "x":1.5, "y": 1.5, "z":1.5 }
+      }
+    },
+	{
+      "id": "penango",
+      "address": "Stendardo_C",
+      "label": "Penango",
+
+      "critical": true,
+      "source": "local",
+
+      "ui": {
+        "hasButton": true,
+        "buttonSize": { "w": 160, "h": 40 }
+      },
+
+      "content": {
+        "newsFeed": "paesi/bandoPenango"
+      },
+
+      "transform": {
+        "position": { "x": -178.1, "y": 6.0, "z": 19.8 },
+        "rotation": { "x": 0, "y": 0, "z": 0 },
+        "scale":    { "x":1.5, "y": 1.5, "z":1.5 }
+      }
+    },
+	{
+      "id": "pessine",
+      "address": "Stendardo_C",
+      "label": "Pessine",
+
+      "critical": true,
+      "source": "local",
+
+      "ui": {
+        "hasButton": true,
+        "buttonSize": { "w": 160, "h": 40 }
+      },
+
+      "content": {
+        "newsFeed": "paesi/bandoPessine"
+      },
+
+      "transform": {
+        "position": { "x": -266, "y": 6.0, "z": 130.7 },
+        "rotation": { "x": 0, "y": 0, "z": 0 },
+        "scale":    { "x":1.5, "y": 1.5, "z":1.5 }
+      }
+    },
+	{
+      "id": "pobietto",
+      "address": "Stendardo_C",
+      "label": "Pobietto",
+
+      "critical": true,
+      "source": "local",
+
+      "ui": {
+        "hasButton": true,
+        "buttonSize": { "w": 150, "h": 40 }
+      },
+
+      "content": {
+        "newsFeed": "paesi/bandoPobietto"
+      },
+
+      "transform": {
+        "position": { "x": -88, "y": 6.0, "z": 328.6 },
+        "rotation": { "x": 0, "y": 0, "z": 0 },
+        "scale":    { "x":1.5, "y": 1.5, "z":1.5 }
+      }
+    },
+	{
+      "id": "refrancore",
+      "address": "Stendardo_C",
+      "label": "Refrancore",
+
+      "critical": true,
+      "source": "local",
+
+      "ui": {
+        "hasButton": true,
+        "buttonSize": { "w": 190, "h": 40 }
+      },
+
+      "content": {
+        "newsFeed": "paesi/bandoRefrancore"
+      },
+
+      "transform": {
+        "position": { "x": -35.6, "y": 6.0, "z": -188.6 },
+        "rotation": { "x": 0, "y": 0, "z": 0 },
+        "scale":    { "x":1.5, "y": 1.5, "z":1.5 }
+      }
+    },
+	{
+      "id": "roncaglia",
+      "address": "Stendardo_C",
+      "label": "Roncaglia",
+
+      "critical": true,
+      "source": "local",
+
+      "ui": {
+        "hasButton": true,
+        "buttonSize": { "w": 170, "h": 40 }
+      },
+
+      "content": {
+        "newsFeed": "paesi/bandoRoncaglia"
+      },
+
+      "transform": {
+        "position": { "x": 128, "y": 6.0, "z": 57.2 },
+        "rotation": { "x": 0, "y": 0, "z": 0 },
+        "scale":    { "x":1.5, "y": 1.5, "z":1.5 }
+      }
+    },
+	{
+      "id": "rosignano",
+      "address": "Stendardo_C",
+      "label": "Rosignano",
+
+      "critical": true,
+      "source": "local",
+
+      "ui": {
+        "hasButton": true,
+        "buttonSize": { "w": 190, "h": 40 }
+      },
+
+      "content": {
+        "newsFeed": "paesi/bandoRosignano"
+      },
+
+      "transform": {
+        "position": { "x": 53.9, "y": 6.0, "z": 128.3 },
+        "rotation": { "x": 0, "y": 0, "z": 0 },
+        "scale":    { "x":1.5, "y": 1.5, "z":1.5 }
+      }
+    },
+	{
+      "id": "sala",
+      "address": "Stendardo_C",
+      "label": "Sala",
+
+      "critical": true,
+      "source": "local",
+
+      "ui": {
+        "hasButton": true,
+        "buttonSize": { "w": 110, "h": 40 }
+      },
+
+      "content": {
+        "newsFeed": "paesi/bandoSala"
+      },
+
+      "transform": {
+        "position": { "x": -12, "y": 6.0, "z": 117.8 },
+        "rotation": { "x": 0, "y": 0, "z": 0 },
+        "scale":    { "x":1.5, "y": 1.5, "z":1.5 }
+      }
+    },
+	{
+      "id": "sangiorgio",
+      "address": "Stendardo_C",
+      "label": "San Giorgio",
+
+      "critical": true,
+      "source": "local",
+
+      "ui": {
+        "hasButton": true,
+        "buttonSize": { "w": 200, "h": 40 }
+      },
+
+      "content": {
+        "newsFeed": "paesi/bandoSanGiorgio"
+      },
+
+      "transform": {
+        "position": { "x": 75.2, "y": 6.0, "z": 188.5 },
+        "rotation": { "x": 0, "y": 0, "z": 0 },
+        "scale":    { "x":1.5, "y": 1.5, "z":1.5 }
+      }
+    },
+	{
+      "id": "sansalvatore",
+      "address": "Stendardo_C",
+      "label": "San Salvatore",
+
+      "critical": true,
+      "source": "local",
+
+      "ui": {
+        "hasButton": true,
+        "buttonSize": { "w": 220, "h": 40 }
+      },
+
+      "content": {
+        "newsFeed": "paesi/bandoSanSalvatore"
+      },
+
+      "transform": {
+        "position": { "x": 317.9, "y": 6.0, "z": -66.2 },
+        "rotation": { "x": 0, "y": 0, "z": 0 },
+        "scale":    { "x":1.5, "y": 1.5, "z":1.5 }
+      }
+    },
+	{
+      "id": "terruggia",
+      "address": "Stendardo_C",
+      "label": "Terruggia",
+
+      "critical": true,
+      "source": "local",
+
+      "ui": {
+        "hasButton": true,
+        "buttonSize": { "w": 170, "h": 40 }
+      },
+
+      "content": {
+        "newsFeed": "paesi/bandoTerruggia"
+      },
+
+      "transform": {
+        "position": { "x": 121.2, "y": 6.0, "z": 133.8 },
+        "rotation": { "x": 0, "y": 0, "z": 0 },
+        "scale":    { "x":1.5, "y": 1.5, "z":1.5 }
+      }
+    },
+	{
+      "id": "ticineto",
+      "address": "Stendardo_C",
+      "label": "Ticineto",
+
+      "critical": true,
+      "source": "local",
+
+      "ui": {
+        "hasButton": true,
+        "buttonSize": { "w": 160, "h": 40 }
+      },
+
+      "content": {
+        "newsFeed": "paesi/bandoTicineto"
+      },
+
+      "transform": {
+        "position": { "x": 300.3, "y": 6.0, "z": 164 },
+        "rotation": { "x": 0, "y": 0, "z": 0 },
+        "scale":    { "x":1.5, "y": 1.5, "z":1.5 }
+      }
+    },
+	{
+      "id": "treville",
+      "address": "Stendardo_C",
+      "label": "Treville",
+
+      "critical": true,
+      "source": "local",
+
+      "ui": {
+        "hasButton": true,
+        "buttonSize": { "w": 150, "h": 40 }
+      },
+
+      "content": {
+        "newsFeed": "paesi/bandoTreville"
+      },
+
+      "transform": {
+        "position": { "x": -6.2, "y": 6.0, "z": 163.7 },
+        "rotation": { "x": 0, "y": 0, "z": 0 },
+        "scale":    { "x":1.5, "y": 1.5, "z":1.5 }
+      }
+    },
+	{
+      "id": "trino",
+      "address": "Stendardo_C",
+      "label": "Trino",
+
+      "critical": true,
+      "source": "local",
+
+      "ui": {
+        "hasButton": true,
+        "buttonSize": { "w": 110, "h": 40 }
+      },
+
+      "content": {
+        "newsFeed": "paesi/bandoTrino"
+      },
+
+      "transform": {
+        "position": { "x": -104.2, "y": 6.0, "z": 380.1},
+        "rotation": { "x": 0, "y": 0, "z": 0 },
+        "scale":    { "x":1.5, "y": 1.5, "z":1.5 }
+      }
+    },
+	{
+      "id": "valenza",
+      "address": "Stendardo_C",
+      "label": "Valenza",
+
+      "critical": true,
+      "source": "local",
+
+      "ui": {
+        "hasButton": true,
+        "buttonSize": { "w": 150, "h": 40 }
+      },
+
+      "content": {
+        "newsFeed": "paesi/bandoValenza"
+      },
+
+      "transform": {
+        "position": { "x": 439.3, "y": 6.0, "z": -16.3 },
+        "rotation": { "x": 0, "y": 0, "z": 0 },
+        "scale":    { "x":1.5, "y": 1.5, "z":1.5 }
+      }
+    },
+	{
+      "id": "valmacca",
+      "address": "Stendardo_C",
+      "label": "Valmacca",
+
+      "critical": true,
+      "source": "local",
+
+      "ui": {
+        "hasButton": true,
+        "buttonSize": { "w": 170, "h": 40 }
+      },
+
+      "content": {
+        "newsFeed": "paesi/bandoValmacca"
+      },
+
+      "transform": {
+        "position": { "x": 341.6, "y": 6.0, "z": 171.3 },
+        "rotation": { "x": 0, "y": 0, "z": 0 },
+        "scale":    { "x":1.5, "y": 1.5, "z":1.5 }
+      }
+    },
+	{
+      "id": "vignale",
+      "address": "Stendardo_C",
+      "label": "Vignale",
+
+      "critical": true,
+      "source": "local",
+
+      "ui": {
+        "hasButton": true,
+        "buttonSize": { "w": 155, "h": 40 }
+      },
+
+      "content": {
+        "newsFeed": "paesi/bandoVignale"
+      },
+
+      "transform": {
+        "position": { "x": 48.4, "y": 6.0, "z": -27.4 },
+        "rotation": { "x": 0, "y": 0, "z": 0 },
+        "scale":    { "x":1.5, "y": 1.5, "z":1.5 }
+      }
+    },
+	{
+      "id": "villanova",
+      "address": "Stendardo_C",
+      "label": "Villanova",
+
+      "critical": true,
+      "source": "local",
+
+      "ui": {
+        "hasButton": true,
+        "buttonSize": { "w": 170, "h": 40 }
+      },
+
+      "content": {
+        "newsFeed": "paesi/bandoVillanova"
+      },
+
+      "transform": {
+        "position": { "x": 180.5, "y": 6.0, "z": 351.6 },
+        "rotation": { "x": 0, "y": 0, "z": 0 },
+        "scale":    { "x":1.5, "y": 1.5, "z":1.5 }
+      }
+    }
+  ],
+  "entities": [
+  {
+     "id": "mercante_01_casale",
+	 "type": "npc",
+     "address": "Mercante_01",
+     "label": "Mercante itinerante",
+     "source": "local",
+     "critical": false,
+	 
+     "spawnNear": {
+       "cityId": "Casale",
+       "offset": { "x": -21, "y": 0, "z": 3 }
+     },
+	 
+     "lifecycle": {
+       "spawn": "onWorldReady",
+       "despawn": "onEventEnd"
+     },
+	 
+     "ui": {
+       "hasButton": true,
+       "label": "Mercante",
+       "buttonSize": { "w": 180, "h": 40 }
+     },
+	 
+     "event": {
+       "id": "mercante_trade",
+       "scene": "MercanteScene",
+       "config": "events/mercante_trade.json"
+     },
+	 
+     "transform": {
+       "position": { "x": 0.0, "y": 6.0, "z": 0.0 },
+       "rotation": { "x": 0, "y": 90, "z": 0 },
+       "scale": { "x": 1, "y": 1, "z": 1 }
+     }
+   },
+   {
+     "id": "mercante_02_chivasso",
+	 "type": "npc",
+     "address": "Mercante_02",
+     "label": "Mercante itinerante",
+     "source": "local",
+     "critical": false,
+	 
+     "spawnNear": {
+       "cityId": "Chivasso",
+       "offset": { "x": -25, "y": 0, "z": -2 }
+     },
+	 
+     "lifecycle": {
+       "spawn": "onWorldReady",
+       "despawn": "onEventEnd"
+     },
+	 
+     "ui": {
+       "hasButton": true,
+       "label": "Mercante",
+       "buttonSize": { "w": 180, "h": 40 }
+     },
+	 
+     "event": {
+       "id": "mercante_trade",
+       "scene": "MercanteScene",
+       "config": "events/mercante_trade.json"
+     },
+	 
+     "transform": {
+       "position": { "x": 0.0, "y": 6.0, "z": 0.0 },
+       "rotation": { "x": 0, "y": 90, "z": 0 },
+       "scale": { "x": 1, "y": 1, "z": 1 }
+     }
+   },
+   {
+     "id": "mercante_02_ticineto",
+	 "type": "npc",
+     "address": "Mercante_02",
+     "label": "Mercante itinerante",
+     "source": "local",
+     "critical": false,
+	 
+     "spawnNear": {
+       "cityId": "Ticineto",
+       "offset": { "x": 17, "y": 0, "z": 2 }
+     },
+	 
+     "lifecycle": {
+       "spawn": "onWorldReady",
+       "despawn": "onEventEnd"
+     },
+	 
+     "ui": {
+       "hasButton": true,
+       "label": "Mercante",
+       "buttonSize": { "w": 180, "h": 40 }
+     },
+	 
+     "event": {
+       "id": "mercante_trade",
+       "scene": "MercanteScene",
+       "config": "events/mercante_trade.json"
+     },
+	 
+     "transform": {
+       "position": { "x": 0.0, "y": 6.0, "z": 0.0 },
+       "rotation": { "x": 0, "y": 30, "z": 0 },
+       "scale": { "x": 1, "y": 1, "z": 1 }
+     }
+   },
+   {
+     "id": "viandante_ticineto",
+	 "type": "npc",
+     "address": "CavalloMarrone",
+     "label": "Viandante a Cavallo",
+	 "source": "local",
+     "critical": false,
+	 
+     "spawnNear": {
+       "cityId": "Ticineto",
+       "offset": { "x": 20, "y": 0.0, "z": 10 }
+     },
+	 
+     "lifecycle": {
+       "spawn": "onWorldReady",
+       "despawn": "onEventEnd"
+     },
+	 
+     "ui": {
+       "hasButton": true,
+       "label": "Viandante",
+       "buttonSize": { "w": 200, "h": 40 }
+     },
+	 
+     "event": {
+       "id": "viandante_trade",
+       "scene": "ViandanteScene",
+       "config": "events/viandante_trade.json"
+     },
+	 
+     "transform": {
+       "position": { "x": 0.0, "y": 6.0, "z": 0.0 },
+       "rotation": { "x": 0, "y": 145, "z": 0 },
+       "scale": { "x": 1, "y": 1, "z": 1 }
+     }
+   },
+   {
+     "id": "viandante_conzano",
+	 "type": "npc",
+     "address": "CavalloMarrone",
+     "label": "Viandante a Cavallo",
+	 "source": "local",
+     "critical": false,
+	 
+     "spawnNear": {
+       "cityId": "Conzano",
+       "offset": { "x": 30, "y": 0.0, "z": 5 }
+     },
+	 
+     "lifecycle": {
+       "spawn": "onWorldReady",
+       "despawn": "onEventEnd"
+     },
+	 
+     "ui": {
+       "hasButton": true,
+       "label": "Viandante",
+       "buttonSize": { "w": 200, "h": 40 }
+     },
+	 
+     "event": {
+       "id": "viandante_trade",
+       "scene": "ViandanteScene",
+       "config": "events/viandante_trade.json"
+     },
+	 
+     "transform": {
+       "position": { "x": 0.0, "y": 6.0, "z": 0.0 },
+       "rotation": { "x": 0, "y": 90, "z": 0 },
+       "scale": { "x": 1, "y": 1, "z": 1 }
+     }
+   },
+   {
+     "id": "viandante_odalengoG",
+	 "type": "npc",
+     "address": "CavalloNero",
+     "label": "Viandante a Cavallo",
+	 "source": "local",
+     "critical": false,
+	 
+     "spawnNear": {
+       "cityId": "Odalengo Grande",
+       "offset": { "x": 10, "y": 0.0, "z": 0.0 }
+     },
+	 
+     "lifecycle": {
+       "spawn": "onWorldReady",
+       "despawn": "onEventEnd"
+     },
+	 
+     "ui": {
+       "hasButton": true,
+       "label": "Viandante",
+       "buttonSize": { "w": 200, "h": 40 }
+     },
+	 
+     "event": {
+       "id": "viandante_trade",
+       "scene": "ViandanteScene",
+       "config": "events/viandante_trade.json"
+     },
+	 
+     "transform": {
+       "position": { "x": 0.0, "y": 6.0, "z": 0.0 },
+       "rotation": { "x": 0, "y": 130, "z": 0 },
+       "scale": { "x": 1, "y": 1, "z": 1 }
+     }
+   },
+   {
+     "id": "viandante_odalengoP",
+	 "type": "npc",
+     "address": "CavalloNero",
+     "label": "Viandante a Cavallo",
+	 "source": "local",
+     "critical": false,
+	 
+     "spawnNear": {
+       "cityId": "Odalengo Piccolo",
+       "offset": { "x": -10, "y": 0.0, "z": 0 }
+     },
+	 
+     "lifecycle": {
+       "spawn": "onWorldReady",
+       "despawn": "onEventEnd"
+     },
+	 
+     "ui": {
+       "hasButton": true,
+       "label": "Viandante",
+       "buttonSize": { "w": 200, "h": 40 }
+     },
+	 
+     "event": {
+       "id": "viandante_trade",
+       "scene": "ViandanteScene",
+       "config": "events/viandante_trade.json"
+     },
+	 
+     "transform": {
+       "position": { "x": 0.0, "y": 6.0, "z": 0.0 },
+       "rotation": { "x": 0, "y": 90, "z": 0 },
+       "scale": { "x": 1, "y": 1, "z": 1 }
+     }
+   }
+  ]
+}
