@@ -2,11 +2,11 @@
   "_metaDatiJson": {
     "nomeJson": "mappa",
     "repoJson": "mappa",
-    "note": "Release v0.0.2"
+    "note": "Release v0.0.5"
   },
   "version": 1,
   "minAppVersion": 1,
-  "generatedAt": "2026-04-18T12:00:00Z",
+  "generatedAt": "2026-04-20T12:00:00Z",
   "terrain":{
     "layer":{
       "id": "TL_Grass",
@@ -313,6 +313,7 @@
         "rotation": { "x": 0, "y": 0, "z": 0 },
         "scale":    { "x":1.2, "y": 1.2, "z":1.2 }
       }
+    },
 	{
       "id": "altavilla_monferrato",
       "address": "Stendardo_C",
@@ -384,7 +385,7 @@
     },
 	{
       "id": "bassignana",
-      "address": "Stendardo_C",
+      "address": "CastelloPiccolo",
       "label": "Bassignana",
 
       "critical": true,
@@ -402,12 +403,35 @@
       "transform": {
         "position": { "x": 579, "y": 6.0, "z": -44.9 },
         "rotation": { "x": 0, "y": 180, "z": 0 },
+        "scale":    { "x":1.2, "y": 1.2, "z":1.2 }
+      }
+    },
+	{
+      "id": "bassignana",
+      "address": "Stendardo_C",
+      "label": "Bassignana",
+
+      "critical": true,
+      "source": "local",
+
+      "ui": {
+        "hasButton": false,
+        "buttonSize": { "w": 200, "h": 40 }
+      },
+
+      "content": {
+        "newsFeed": "paesi/bandoBassignana"
+      },
+
+      "transform": {
+        "position": { "x": 569, "y": 6.0, "z": -44.9 },
+        "rotation": { "x": 0, "y": 140, "z": 0 },
         "scale":    { "x":1.5, "y": 1.5, "z":1.5 }
       }
     },
 	{
       "id": "borgo_san_martino",
-      "address": "Stendardo_C",
+      "address": "CastelloPiccolo",
       "label": "Borgo San Martino",
 
       "critical": true,
@@ -424,13 +448,36 @@
 
       "transform": {
         "position": { "x": 248.8, "y": 6.0, "z": 145.3 },
-        "rotation": { "x": 0, "y": 160, "z": 0 },
+        "rotation": { "x": 0, "y": 90, "z": 0 },
+        "scale":    { "x":1.2, "y": 1.2, "z":1.2 }
+      }
+    },
+	{
+      "id": "borgo_san_martino",
+      "address": "Stendardo_C",
+      "label": "Borgo San Martino",
+
+      "critical": true,
+      "source": "local",
+
+      "ui": {
+        "hasButton": false,
+        "buttonSize": { "w": 290, "h": 40 }
+      },
+
+      "content": {
+        "newsFeed": "paesi/bandoBorgoSM"
+      },
+
+      "transform": {
+		"position": { "x": 255.8, "y": 6.0, "z": 151.3 },
+        "rotation": { "x": 0, "y": 180, "z": 0 },
         "scale":    { "x":1.5, "y": 1.5, "z":1.5 }
       }
     },
 	{
       "id": "bozzole",
-      "address": "Stendardo_C",
+      "address": "CastelloPiccolo",
       "label": "Bozzole",
 
       "critical": true,
@@ -448,12 +495,35 @@
       "transform": {
         "position": { "x": 366, "y": 6.0, "z": 101.6 },
         "rotation": { "x": 0, "y": 250, "z": 0 },
+        "scale":    { "x":1.2, "y": 1.2, "z":1.2 }
+      }
+    },
+	{
+      "id": "bozzole",
+      "address": "Stendardo_C",
+      "label": "Bozzole",
+
+      "critical": true,
+      "source": "local",
+
+      "ui": {
+        "hasButton": false,
+        "buttonSize": { "w": 150, "h": 40 }
+      },
+
+      "content": {
+        "newsFeed": "paesi/bandoBozzole"
+      },
+
+      "transform": {
+        "position": { "x": 356, "y": 6.0, "z": 101.6 },
+        "rotation": { "x": 0, "y": 150, "z": 0 },
         "scale":    { "x":1.5, "y": 1.5, "z":1.5 }
       }
     },
 	{
       "id": "calliano",
-      "address": "Stendardo_C",
+      "address": "CastelloPiccolo",
       "label": "Calliano",
 
       "critical": true,
@@ -471,6 +541,29 @@
       "transform": {
         "position": { "x": -169.6, "y": 6.0, "z": -34.2 },
         "rotation": { "x": 0, "y": 120, "z": 0 },
+        "scale":    { "x":1.2, "y": 1.2, "z":1.2 }
+      }
+    },
+	{
+      "id": "calliano",
+      "address": "Stendardo_C",
+      "label": "Calliano",
+
+      "critical": true,
+      "source": "local",
+
+      "ui": {
+        "hasButton": false,
+        "buttonSize": { "w": 160, "h": 40 }
+      },
+
+      "content": {
+        "newsFeed": "paesi/bandoCalliano"
+      },
+
+      "transform": {
+        "position": { "x": -162.6, "y": 6.0, "z": -28.2 },
+        "rotation": { "x": 0, "y": 160, "z": 0 },
         "scale":    { "x":1.5, "y": 1.5, "z":1.5 }
       }
     },
@@ -614,7 +707,7 @@
     },
 	{
       "id": "castello_di_annone",
-      "address": "TorreA",
+      "address": "CastelloGrande",
       "label": "Castel d'Annone",
 
       "critical": true,
@@ -631,8 +724,8 @@
 
       "transform": {
         "position": { "x": -77.8, "y": 6.0, "z": -320.6 },
-        "rotation": { "x": 0, "y": 0, "z": 0 },
-        "scale":    { "x":0.3, "y": 0.3, "z":0.3 }
+        "rotation": { "x": 0, "y": 180, "z": 0 },
+        "scale":    { "x": 1.2, "y": 1.2, "z":1.2 }
       }
     },
 	{
@@ -1590,7 +1683,7 @@
 	 
      "spawnNear": {
        "cityId": "Casale",
-       "offset": { "x": -21, "y": 0, "z": -7 }
+       "offset": { "x": -21, "y": 0, "z": -12 }
      },
 	 
      "lifecycle": {
