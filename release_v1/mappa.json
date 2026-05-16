@@ -2,11 +2,11 @@
   "_metaDatiJson": {
     "nomeJson": "mappa",
     "repoJson": "mappa",
-    "note": "Release v0.0.5"
+    "note": "Release v0.0.6"
   },
   "version": 1,
   "minAppVersion": 1,
-  "generatedAt": "2026-04-20T12:00:00Z",
+  "generatedAt": "2026-05-16T12:00:00Z",
   "terrain":{
     "layer":{
       "id": "TL_Grass",
@@ -40,7 +40,7 @@
     },
 	{
       "id": "casale_stendardo",
-      "address": "Stendardo_C",
+      "address": "Stendardo_Paleologi",
       "label": "Casale",
 
       "critical": true,
@@ -86,7 +86,7 @@
     },
 	{
       "id": "chivasso_stendardo",
-      "address": "Stendardo_C",
+      "address": "Stendardo_Savoia",
       "label": "Chivasso",
 
       "critical": true,
@@ -132,7 +132,7 @@
     },
 	{
       "id": "moncalvo_stendardo",
-      "address": "Stendardo_C",
+      "address": "Stendardo_Paleologi",
       "label": "Moncalvo",
 
       "critical": true,
@@ -178,7 +178,7 @@
     },
 	{
       "id": "pontestura_stendardo",
-      "address": "Stendardo_C",
+      "address": "Stendardo_Paleologi",
       "label": "Pontestura",
 
       "critical": true,
@@ -195,7 +195,7 @@
 
       "transform": {
         "position": { "x": -58.1, "y": 6.0, "z": 270.3 },
-        "rotation": { "x": 0, "y": 130, "z": 0 },
+        "rotation": { "x": 0, "y": 150, "z": 0 },
         "scale":    { "x":1.5, "y": 1.5, "z":1.5 }
       }
     },
@@ -224,7 +224,7 @@
     },
 	{
       "id": "acqui",
-      "address": "Stendardo_C",
+      "address": "Stendardo_Visconti",
       "label": "Acqui",
 
       "critical": true,
@@ -270,7 +270,7 @@
     },
 	{
       "id": "alfiano_natta",
-      "address": "Stendardo_C",
+      "address": "Stendardo_Paleologi",
       "label": "Alfiano",
 
       "critical": true,
@@ -316,7 +316,7 @@
     },
 	{
       "id": "altavilla_monferrato",
-      "address": "Stendardo_C",
+      "address": "Stendardo_Paleologi",
       "label": "Altavilla",
 
       "critical": true,
@@ -362,7 +362,7 @@
     },
 	{
       "id": "balzola",
-      "address": "Stendardo_C",
+      "address": "Stendardo_Paleologi",
       "label": "Balzola",
 
       "critical": true,
@@ -408,7 +408,7 @@
     },
 	{
       "id": "bassignana",
-      "address": "Stendardo_C",
+      "address": "Stendardo_Visconti",
       "label": "Bassignana",
 
       "critical": true,
@@ -454,7 +454,7 @@
     },
 	{
       "id": "borgo_san_martino",
-      "address": "Stendardo_C",
+      "address": "Stendardo_Paleologi",
       "label": "Borgo San Martino",
 
       "critical": true,
@@ -500,7 +500,7 @@
     },
 	{
       "id": "bozzole",
-      "address": "Stendardo_C",
+      "address": "Stendardo_Paleologi",
       "label": "Bozzole",
 
       "critical": true,
@@ -546,7 +546,7 @@
     },
 	{
       "id": "calliano",
-      "address": "Stendardo_C",
+      "address": "Stendardo_Paleologi",
       "label": "Calliano",
 
       "critical": true,
@@ -569,7 +569,7 @@
     },
 	{
       "id": "camagna_monferrato",
-      "address": "Stendardo_C",
+      "address": "Stendardo_Paleologi",
       "label": "Camagna",
 
       "critical": true,
@@ -592,7 +592,7 @@
     },
 	{
       "id": "camino",
-      "address": "Stendardo_C",
+      "address": "Stendardo_Paleologi",
       "label": "Camino",
 
       "critical": true,
@@ -615,7 +615,7 @@
     },
 	{
       "id": "casorzo",
-      "address": "Stendardo_C",
+      "address": "Stendardo_Paleologi",
       "label": "Casorzo",
 
       "critical": true,
@@ -638,7 +638,7 @@
     },
 	{
       "id": "castagnole",
-      "address": "Stendardo_C",
+      "address": "Stendardo_Paleologi",
       "label": "Castagnole",
 
       "critical": true,
@@ -661,7 +661,7 @@
     },
 	{
       "id": "castelletto_merli",
-      "address": "Stendardo_C",
+      "address": "Stendardo_Paleologi",
       "label": "Castelletto de' Merli",
 
       "critical": true,
@@ -684,7 +684,7 @@
     },
 	{
       "id": "castelletto_monferrato",
-      "address": "Stendardo_C",
+      "address": "Stendardo_Paleologi",
       "label": "Castelletto",
 
       "critical": true,
@@ -729,8 +729,54 @@
       }
     },
 	{
+      "id": "castello_di_annone_stendardo",
+      "address": "Stendardo_Visconti",
+      "label": "Casale",
+
+      "critical": true,
+      "source": "local",
+
+      "ui": {
+        "hasButton": false,
+        "buttonSize": { "w": 140, "h": 40 }
+      },
+
+      "content": {
+        "newsFeed": "paesi/bandoCasale"
+      },
+
+      "transform": {
+        "position": { "x": 135, "y": 6.0, "z": 260 },
+        "rotation": { "x": 0, "y": 180, "z": 0 },
+        "scale":    { "x":1.5, "y": 1.5, "z":1.5 }
+      }
+    },
+	{
       "id": "cella_monte",
-      "address": "Stendardo_C",
+      "address": "CastelloPiccolo",
+      "label": "Cella",
+
+      "critical": true,
+      "source": "local",
+
+      "ui": {
+        "hasButton": true,
+        "buttonSize": { "w": 120, "h": 40 }
+      },
+
+      "content": {
+        "newsFeed": "paesi/bandoCella"
+      },
+
+      "transform": {
+        "position": { "x": 41.4, "y": 6.0, "z": 113.3 },
+        "rotation": { "x": 0, "y": 160, "z": 0 },
+        "scale":    { "x":1.2, "y": 1.2, "z":1.2 }
+      }
+    },
+	{
+      "id": "cella_monte",
+      "address": "Stendardo_Paleologi",
       "label": "Cella",
 
       "critical": true,
@@ -753,7 +799,7 @@
     },
 	{
       "id": "cereseto",
-      "address": "Stendardo_C",
+      "address": "Stendardo_Paleologi",
       "label": "Cereseto",
 
       "critical": true,
@@ -776,7 +822,7 @@
     },
 	{
       "id": "cerrina",
-      "address": "Stendardo_C",
+      "address": "Stendardo_Paleologi",
       "label": "Cerrina",
 
       "critical": true,
@@ -799,7 +845,7 @@
     },
 	{
       "id": "cerro_tanaro",
-      "address": "Stendardo_C",
+      "address": "Stendardo_Paleologi",
       "label": "Cerro",
 
       "critical": true,
@@ -822,7 +868,7 @@
     },
 	{
       "id": "coniolo",
-      "address": "Stendardo_C",
+      "address": "Stendardo_Paleologi",
       "label": "Coniolo",
 
       "critical": true,
@@ -845,7 +891,7 @@
     },
 	{
       "id": "conzano",
-      "address": "Stendardo_C",
+      "address": "Stendardo_Paleologi",
       "label": "Conzano",
 
       "critical": true,
@@ -868,7 +914,7 @@
     },
 	{
       "id": "cuccaro",
-      "address": "Stendardo_C",
+      "address": "Stendardo_Paleologi",
       "label": "Cuccaro",
 
       "critical": true,
@@ -891,7 +937,7 @@
     },
 	{
       "id": "frassinello",
-      "address": "Stendardo_C",
+      "address": "Stendardo_Paleologi",
       "label": "Frassinello",
 
       "critical": true,
@@ -914,7 +960,7 @@
     },
 	{
       "id": "frassineto_po",
-      "address": "Stendardo_C",
+      "address": "Stendardo_Paleologi",
       "label": "Frassineto",
 
       "critical": true,
@@ -937,7 +983,7 @@
     },
 	{
       "id": "fubine",
-      "address": "Stendardo_C",
+      "address": "Stendardo_Paleologi",
       "label": "Fubine",
 
       "critical": true,
@@ -960,7 +1006,7 @@
     },
 	{
       "id": "gabiano",
-      "address": "Stendardo_C",
+      "address": "Stendardo_Paleologi",
       "label": "Gabiano",
 
       "critical": true,
@@ -983,7 +1029,7 @@
     },
 	{
       "id": "giarole",
-      "address": "Stendardo_C",
+      "address": "Stendardo_Paleologi",
       "label": "Giarole",
 
       "critical": true,
@@ -1006,7 +1052,7 @@
     },
 	{
       "id": "lignano",
-      "address": "Stendardo_C",
+      "address": "Stendardo_Paleologi",
       "label": "Lignano",
 
       "critical": true,
@@ -1029,7 +1075,7 @@
     },
 	{
       "id": "lu",
-      "address": "Stendardo_C",
+      "address": "Stendardo_Paleologi",
       "label": "Lu",
 
       "critical": true,
@@ -1052,7 +1098,7 @@
     },
 	{
       "id": "mirabello",
-      "address": "Stendardo_C",
+      "address": "Stendardo_Paleologi",
       "label": "Mirabello",
 
       "critical": true,
@@ -1075,7 +1121,7 @@
     },
 	{
       "id": "mombello",
-      "address": "Stendardo_C",
+      "address": "Stendardo_Paleologi",
       "label": "Mombello",
 
       "critical": true,
@@ -1098,7 +1144,7 @@
     },
 	{
       "id": "montemagno",
-      "address": "Stendardo_C",
+      "address": "Stendardo_Paleologi",
       "label": "Montemagno",
 
       "critical": true,
@@ -1121,7 +1167,7 @@
     },
 	{
       "id": "morano",
-      "address": "Stendardo_C",
+      "address": "Stendardo_Paleologi",
       "label": "Morano",
 
       "critical": true,
@@ -1144,7 +1190,7 @@
     },
 	{
       "id": "murisengo",
-      "address": "Stendardo_C",
+      "address": "Stendardo_Paleologi",
       "label": "Murisengo",
 
       "critical": true,
@@ -1167,7 +1213,7 @@
     },
 	{
       "id": "occimiano",
-      "address": "Stendardo_C",
+      "address": "Stendardo_Paleologi",
       "label": "Occimiano",
 
       "critical": true,
@@ -1190,7 +1236,7 @@
     },
 	{
       "id": "odalengo_grande",
-      "address": "Stendardo_C",
+      "address": "Stendardo_Paleologi",
       "label": "Odalengo Grande",
 
       "critical": true,
@@ -1213,7 +1259,7 @@
     },
 	{
       "id": "odalengo_piccolo",
-      "address": "Stendardo_C",
+      "address": "Stendardo_Paleologi",
       "label": "Odalengo Piccolo",
 
       "critical": true,
@@ -1236,7 +1282,7 @@
     },
 	{
       "id": "olivola",
-      "address": "Stendardo_C",
+      "address": "Stendardo_Paleologi",
       "label": "Olivola",
 
       "critical": true,
@@ -1259,7 +1305,7 @@
     },
 	{
       "id": "ozzano",
-      "address": "Stendardo_C",
+      "address": "Stendardo_Paleologi",
       "label": "Ozzano",
 
       "critical": true,
@@ -1282,7 +1328,7 @@
     },
 	{
       "id": "penango",
-      "address": "Stendardo_C",
+      "address": "Stendardo_Paleologi",
       "label": "Penango",
 
       "critical": true,
@@ -1305,7 +1351,7 @@
     },
 	{
       "id": "pessine",
-      "address": "Stendardo_C",
+      "address": "Stendardo_Paleologi",
       "label": "Pessine",
 
       "critical": true,
@@ -1328,7 +1374,7 @@
     },
 	{
       "id": "pobietto",
-      "address": "Stendardo_C",
+      "address": "Stendardo_Paleologi",
       "label": "Pobietto",
 
       "critical": true,
@@ -1351,7 +1397,7 @@
     },
 	{
       "id": "refrancore",
-      "address": "Stendardo_C",
+      "address": "Stendardo_Paleologi",
       "label": "Refrancore",
 
       "critical": true,
@@ -1374,7 +1420,7 @@
     },
 	{
       "id": "roncaglia",
-      "address": "Stendardo_C",
+      "address": "Stendardo_Paleologi",
       "label": "Roncaglia",
 
       "critical": true,
@@ -1397,7 +1443,7 @@
     },
 	{
       "id": "rosignano",
-      "address": "Stendardo_C",
+      "address": "Stendardo_Paleologi",
       "label": "Rosignano",
 
       "critical": true,
@@ -1420,7 +1466,7 @@
     },
 	{
       "id": "sala",
-      "address": "Stendardo_C",
+      "address": "Stendardo_Paleologi",
       "label": "Sala",
 
       "critical": true,
@@ -1443,7 +1489,7 @@
     },
 	{
       "id": "sangiorgio",
-      "address": "Stendardo_C",
+      "address": "Stendardo_Paleologi",
       "label": "San Giorgio",
 
       "critical": true,
@@ -1466,7 +1512,7 @@
     },
 	{
       "id": "sansalvatore",
-      "address": "Stendardo_C",
+      "address": "Stendardo_Paleologi",
       "label": "San Salvatore",
 
       "critical": true,
@@ -1489,7 +1535,7 @@
     },
 	{
       "id": "terruggia",
-      "address": "Stendardo_C",
+      "address": "Stendardo_Paleologi",
       "label": "Terruggia",
 
       "critical": true,
@@ -1512,7 +1558,7 @@
     },
 	{
       "id": "ticineto",
-      "address": "Stendardo_C",
+      "address": "Stendardo_Paleologi",
       "label": "Ticineto",
 
       "critical": true,
@@ -1535,7 +1581,7 @@
     },
 	{
       "id": "treville",
-      "address": "Stendardo_C",
+      "address": "Stendardo_Paleologi",
       "label": "Treville",
 
       "critical": true,
@@ -1558,7 +1604,7 @@
     },
 	{
       "id": "trino",
-      "address": "Stendardo_C",
+      "address": "Stendardo_Paleologi",
       "label": "Trino",
 
       "critical": true,
@@ -1581,7 +1627,7 @@
     },
 	{
       "id": "valenza",
-      "address": "Stendardo_C",
+      "address": "Stendardo_Paleologi",
       "label": "Valenza",
 
       "critical": true,
@@ -1604,7 +1650,7 @@
     },
 	{
       "id": "valmacca",
-      "address": "Stendardo_C",
+      "address": "Stendardo_Paleologi",
       "label": "Valmacca",
 
       "critical": true,
@@ -1627,7 +1673,7 @@
     },
 	{
       "id": "vignale",
-      "address": "Stendardo_C",
+      "address": "Stendardo_Paleologi",
       "label": "Vignale",
 
       "critical": true,
@@ -1650,7 +1696,7 @@
     },
 	{
       "id": "villanova",
-      "address": "Stendardo_C",
+      "address": "Stendardo_Paleologi",
       "label": "Villanova",
 
       "critical": true,
