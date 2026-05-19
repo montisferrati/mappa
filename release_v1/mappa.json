@@ -2,11 +2,11 @@
   "_metaDatiJson": {
     "nomeJson": "mappa",
     "repoJson": "mappa",
-    "note": "Release v0.0.6"
+    "note": "Release v0.0.7"
   },
   "version": 1,
   "minAppVersion": 1,
-  "generatedAt": "2026-05-16T12:00:00Z",
+  "generatedAt": "2026-05-19T12:00:00Z",
   "terrain":{
     "layer":{
       "id": "TL_Grass",
@@ -34,8 +34,8 @@
 
       "transform": {
         "position": { "x": 128, "y": 6.0, "z": 254 },
-        "rotation": { "x": 0, "y": 150, "z": 0 },
-        "scale":    { "x":1.2, "y": 1.2, "z":1.2 }
+        "rotation": { "x": 0, "y": 130, "z": 0 },
+        "scale":    { "x": 1.2, "y": 1.2, "z": 1.2 }
       }
     },
 	{
@@ -58,7 +58,7 @@
       "transform": {
         "position": { "x": 135, "y": 6.0, "z": 260 },
         "rotation": { "x": 0, "y": 180, "z": 0 },
-        "scale":    { "x":1.5, "y": 1.5, "z":1.5 }
+        "scale":    { "x": 1.5, "y": 1.5, "z": 1.5 }
       }
     },
 	{
@@ -80,8 +80,8 @@
 
       "transform": {
         "position": { "x": -744.2, "y": 6.0, "z": 370.5 },
-        "rotation": { "x": 0, "y": 180, "z": 0 },
-        "scale":    { "x":1.3, "y": 1.3, "z":1.3 }
+        "rotation": { "x": 0, "y": 210, "z": 0 },
+        "scale":    { "x": 1.3, "y": 1.3, "z": 1.3 }
       }
     },
 	{
@@ -104,7 +104,7 @@
       "transform": {
         "position": { "x": -754.2, "y": 6.0, "z": 370.5 },
         "rotation": { "x": 0, "y": 140, "z": 0 },
-        "scale":    { "x":1.5, "y": 1.5, "z":1.5 }
+        "scale":    { "x": 1.5, "y": 1.5, "z": 1.5 }
       }
     },
 	{
@@ -126,8 +126,8 @@
 
       "transform": {
         "position": { "x": -151.7, "y": 6.0, "z": 64.5 },
-        "rotation": { "x": 0, "y": 190, "z": 0 },
-        "scale":    { "x":1.2, "y": 1.2, "z":1.2 }
+        "rotation": { "x": 0, "y": 100, "z": 0 },
+        "scale":    { "x": 1.2, "y": 1.2, "z": 1.2 }
       }
     },
 	{
@@ -149,8 +149,8 @@
 
       "transform": {
         "position": { "x": -144.7, "y": 6.0, "z": 70.5 },
-        "rotation": { "x": 0, "y": 170, "z": 0 },
-        "scale":    { "x":1.5, "y": 1.5, "z":1.5 }
+        "rotation": { "x": 0, "y": 210, "z": 0 },
+        "scale":    { "x": 1.5, "y": 1.5, "z": 1.5 }
       }
     },
 	{
@@ -172,8 +172,8 @@
 
       "transform": {
         "position": { "x": -48.1, "y": 6.0, "z": 270.3 },
-        "rotation": { "x": 0, "y": 130, "z": 0 },
-        "scale":    { "x":1.2, "y": 1.2, "z":1.2 }
+        "rotation": { "x": 0, "y": 220, "z": 0 },
+        "scale":    { "x": 1.2, "y": 1.2, "z": 1.2 }
       }
     },
 	{
@@ -196,7 +196,7 @@
       "transform": {
         "position": { "x": -58.1, "y": 6.0, "z": 270.3 },
         "rotation": { "x": 0, "y": 150, "z": 0 },
-        "scale":    { "x":1.5, "y": 1.5, "z":1.5 }
+        "scale":    { "x": 1.5, "y": 1.5, "z": 1.5 }
       }
     },
 	{
@@ -218,12 +218,12 @@
 
       "transform": {
         "position": { "x": 174.2, "y": 6.0, "z": -776.4 },
-        "rotation": { "x": 0, "y": 20, "z": 0 },
-        "scale":    { "x":1.3, "y": 1.3, "z":1.3 }
+        "rotation": { "x": 0, "y": 105, "z": 0 },
+        "scale":    { "x": 1.3, "y": 1.3, "z": 1.3 }
       }
     },
 	{
-      "id": "acqui",
+      "id": "acqui_stendardo",
       "address": "Stendardo_Visconti",
       "label": "Acqui",
 
@@ -241,8 +241,8 @@
 
       "transform": {
         "position": { "x": 181.2, "y": 6.0, "z": -770.4 },
-        "rotation": { "x": 0, "y": 170, "z": 0 },
-        "scale":    { "x":1.5, "y": 1.5, "z":1.5 }
+        "rotation": { "x": 0, "y": 150, "z": 0 },
+        "scale":    { "x": 1.5, "y": 1.5, "z": 1.5 }
       }
     },
 	{
@@ -264,12 +264,12 @@
 
       "transform": {
         "position": { "x": -246.9, "y": 6.0, "z": 58.3 },
-        "rotation": { "x": 0, "y": 270, "z": 0 },
-        "scale":    { "x":1.2, "y": 1.2, "z":1.2 }
+        "rotation": { "x": 0, "y": 160, "z": 0 },
+        "scale":    { "x": 1.2, "y": 1.2, "z": 1.2 }
       }
     },
 	{
-      "id": "alfiano_natta",
+      "id": "alfiano_natta_stendardo",
       "address": "Stendardo_Paleologi",
       "label": "Alfiano",
 
@@ -287,8 +287,8 @@
 
       "transform": {
         "position": { "x": -256.9, "y": 6.0, "z": 58.3 },
-        "rotation": { "x": 0, "y": 150, "z": 0 },
-        "scale":    { "x":1.5, "y": 1.5, "z":1.5 }
+        "rotation": { "x": 0, "y": 138, "z": 0 },
+        "scale":    { "x": 1.5, "y": 1.5, "z": 1.5 }
       }
     },
 	{
@@ -310,12 +310,12 @@
 
       "transform": {
         "position": { "x": 16.1, "y": 6.0, "z": -65.6 },
-        "rotation": { "x": 0, "y": 0, "z": 0 },
-        "scale":    { "x":1.2, "y": 1.2, "z":1.2 }
+        "rotation": { "x": 0, "y": 180, "z": 0 },
+        "scale":    { "x": 1.2, "y": 1.2, "z": 1.2 }
       }
     },
 	{
-      "id": "altavilla_monferrato",
+      "id": "altavilla_monferrato_stendardo",
       "address": "Stendardo_Paleologi",
       "label": "Altavilla",
 
@@ -333,8 +333,8 @@
 
       "transform": {
         "position": { "x": 23.1, "y": 6.0, "z": -59.6 },
-        "rotation": { "x": 0, "y": 180, "z": 0 },
-        "scale":    { "x":1.5, "y": 1.5, "z":1.5 }
+        "rotation": { "x": 0, "y": 210, "z": 0 },
+        "scale":    { "x": 1.5, "y": 1.5, "z": 1.5 }
       }
     },
 	{
@@ -356,12 +356,12 @@
 
       "transform": {
         "position": { "x": 53.4, "y": 6.0, "z": 360 },
-        "rotation": { "x": 0, "y": 0, "z": 0 },
-        "scale":    { "x":1.2, "y": 1.2, "z":1.2 }
+        "rotation": { "x": 0, "y": 150, "z": 0 },
+        "scale":    { "x": 1.2, "y": 1.2, "z": 1.2 }
       }
     },
 	{
-      "id": "balzola",
+      "id": "balzola_stendardo",
       "address": "Stendardo_Paleologi",
       "label": "Balzola",
 
@@ -379,8 +379,8 @@
 
       "transform": {
         "position": { "x": 43.4, "y": 6.0, "z": 360 },
-        "rotation": { "x": 0, "y": 140, "z": 0 },
-        "scale":    { "x":1.5, "y": 1.5, "z":1.5 }
+        "rotation": { "x": 0, "y": 120, "z": 0 },
+        "scale":    { "x": 1.5, "y": 1.5, "z": 1.5 }
       }
     },
 	{
@@ -403,11 +403,11 @@
       "transform": {
         "position": { "x": 579, "y": 6.0, "z": -44.9 },
         "rotation": { "x": 0, "y": 180, "z": 0 },
-        "scale":    { "x":1.2, "y": 1.2, "z":1.2 }
+        "scale":    { "x": 1.2, "y": 1.2, "z": 1.2 }
       }
     },
 	{
-      "id": "bassignana",
+      "id": "bassignana_stendardo",
       "address": "Stendardo_Visconti",
       "label": "Bassignana",
 
@@ -426,7 +426,7 @@
       "transform": {
         "position": { "x": 569, "y": 6.0, "z": -44.9 },
         "rotation": { "x": 0, "y": 140, "z": 0 },
-        "scale":    { "x":1.5, "y": 1.5, "z":1.5 }
+        "scale":    { "x": 1.5, "y": 1.5, "z": 1.5 }
       }
     },
 	{
@@ -448,12 +448,12 @@
 
       "transform": {
         "position": { "x": 248.8, "y": 6.0, "z": 145.3 },
-        "rotation": { "x": 0, "y": 90, "z": 0 },
-        "scale":    { "x":1.2, "y": 1.2, "z":1.2 }
+        "rotation": { "x": 0, "y": 192, "z": 0 },
+        "scale":    { "x": 1.2, "y": 1.2, "z": 1.2 }
       }
     },
 	{
-      "id": "borgo_san_martino",
+      "id": "borgo_san_martino_stendardo",
       "address": "Stendardo_Paleologi",
       "label": "Borgo San Martino",
 
@@ -471,8 +471,8 @@
 
       "transform": {
 		"position": { "x": 255.8, "y": 6.0, "z": 151.3 },
-        "rotation": { "x": 0, "y": 180, "z": 0 },
-        "scale":    { "x":1.5, "y": 1.5, "z":1.5 }
+        "rotation": { "x": 0, "y": 214, "z": 0 },
+        "scale":    { "x": 1.5, "y": 1.5, "z": 1.5 }
       }
     },
 	{
@@ -494,12 +494,12 @@
 
       "transform": {
         "position": { "x": 366, "y": 6.0, "z": 101.6 },
-        "rotation": { "x": 0, "y": 250, "z": 0 },
-        "scale":    { "x":1.2, "y": 1.2, "z":1.2 }
+        "rotation": { "x": 0, "y": 280, "z": 0 },
+        "scale":    { "x": 1.2, "y": 1.2, "z": 1.2 }
       }
     },
 	{
-      "id": "bozzole",
+      "id": "bozzole_stendardo",
       "address": "Stendardo_Paleologi",
       "label": "Bozzole",
 
@@ -516,9 +516,9 @@
       },
 
       "transform": {
-        "position": { "x": 356, "y": 6.0, "z": 101.6 },
-        "rotation": { "x": 0, "y": 150, "z": 0 },
-        "scale":    { "x":1.5, "y": 1.5, "z":1.5 }
+        "position": { "x": 375, "y": 6.0, "z": 108 },
+        "rotation": { "x": 0, "y": 226, "z": 0 },
+        "scale":    { "x": 1.5, "y": 1.5, "z": 1.5 }
       }
     },
 	{
@@ -541,11 +541,11 @@
       "transform": {
         "position": { "x": -169.6, "y": 6.0, "z": -34.2 },
         "rotation": { "x": 0, "y": 120, "z": 0 },
-        "scale":    { "x":1.2, "y": 1.2, "z":1.2 }
+        "scale":    { "x": 1.2, "y": 1.2, "z": 1.2 }
       }
     },
 	{
-      "id": "calliano",
+      "id": "calliano_stendardo",
       "address": "Stendardo_Paleologi",
       "label": "Calliano",
 
@@ -564,12 +564,12 @@
       "transform": {
         "position": { "x": -162.6, "y": 6.0, "z": -28.2 },
         "rotation": { "x": 0, "y": 160, "z": 0 },
-        "scale":    { "x":1.5, "y": 1.5, "z":1.5 }
+        "scale":    { "x": 1.5, "y": 1.5, "z": 1.5 }
       }
     },
 	{
       "id": "camagna_monferrato",
-      "address": "Stendardo_Paleologi",
+      "address": "CastelloExa",
       "label": "Camagna",
 
       "critical": true,
@@ -586,13 +586,36 @@
 
       "transform": {
         "position": { "x": 102.3, "y": 6.0, "z": -11.1 },
-        "rotation": { "x": 0, "y": 0, "z": 0 },
-        "scale":    { "x":1.5, "y": 1.5, "z":1.5 }
+        "rotation": { "x": 0, "y": 210, "z": 0 },
+        "scale":    { "x": 1.3, "y": 1.3, "z": 1.3 }
+      }
+    },
+	{
+      "id": "camagna_monferrato_stendardo",
+      "address": "Stendardo_Paleologi",
+      "label": "Camagna",
+
+      "critical": true,
+      "source": "local",
+
+      "ui": {
+        "hasButton": false,
+        "buttonSize": { "w": 170, "h": 40 }
+      },
+
+      "content": {
+        "newsFeed": "paesi/bandoCamagna"
+      },
+
+      "transform": {
+        "position": { "x": 92.3, "y": 6.0, "z": -11.1 },
+        "rotation": { "x": 0, "y": 140, "z": 0 },
+        "scale":    { "x": 1.5, "y": 1.5, "z": 1.5 }
       }
     },
 	{
       "id": "camino",
-      "address": "Stendardo_Paleologi",
+      "address": "CastelloGrande",
       "label": "Camino",
 
       "critical": true,
@@ -609,13 +632,36 @@
 
       "transform": {
         "position": { "x": -131.8, "y": 6.0, "z": 308.3 },
-        "rotation": { "x": 0, "y": 0, "z": 0 },
-        "scale":    { "x":1.5, "y": 1.5, "z":1.5 }
+        "rotation": { "x": 0, "y": 130, "z": 0 },
+        "scale":    { "x": 1.2, "y": 1.2, "z": 1.2 }
+      }
+    },
+	{
+      "id": "camino_stendardo",
+      "address": "Stendardo_Paleologi",
+      "label": "Camino",
+
+      "critical": true,
+      "source": "local",
+
+      "ui": {
+        "hasButton": false,
+        "buttonSize": { "w": 150, "h": 40 }
+      },
+
+      "content": {
+        "newsFeed": "paesi/bandoCamino"
+      },
+
+      "transform": {
+        "position": { "x": -124.8, "y": 6.0, "z": 314.3 },
+        "rotation": { "x": 0, "y": 180, "z": 0 },
+        "scale":    { "x": 1.5, "y": 1.5, "z": 1.5 }
       }
     },
 	{
       "id": "casorzo",
-      "address": "Stendardo_Paleologi",
+      "address": "CastelloGrande",
       "label": "Casorzo",
 
       "critical": true,
@@ -632,13 +678,36 @@
 
       "transform": {
         "position": { "x": -48.2, "y": 6.0, "z": 0.2 },
-        "rotation": { "x": 0, "y": 70, "z": 0 },
-        "scale":    { "x":1.5, "y": 1.5, "z":1.5 }
+        "rotation": { "x": 0, "y": 170, "z": 0 },
+        "scale":    { "x": 1.2, "y": 1.2, "z": 1.2 }
+      }
+    },
+	{
+      "id": "casorzo_stendardo",
+      "address": "Stendardo_Paleologi",
+      "label": "Casorzo",
+
+      "critical": true,
+      "source": "local",
+
+      "ui": {
+        "hasButton": false,
+        "buttonSize": { "w": 155, "h": 40 }
+      },
+
+      "content": {
+        "newsFeed": "paesi/bandoCasorzo"
+      },
+
+      "transform": {
+        "position": { "x": -60, "y": 6.0, "z": 0.2 },
+        "rotation": { "x": 0, "y": 140, "z": 0 },
+        "scale":    { "x": 1.5, "y": 1.5, "z": 1.5 }
       }
     },
 	{
       "id": "castagnole",
-      "address": "Stendardo_Paleologi",
+      "address": "CastelloMedio",
       "label": "Castagnole",
 
       "critical": true,
@@ -655,21 +724,44 @@
 
       "transform": {
         "position": { "x": -86.1, "y": 6.0, "z": -140.4 },
-        "rotation": { "x": 0, "y": 45, "z": 0 },
-        "scale":    { "x":1.5, "y": 1.5, "z":1.5 }
+        "rotation": { "x": 0, "y": 95, "z": 0 },
+        "scale":    { "x": 1.2, "y": 1.2, "z": 1.2 }
+      }
+    },
+	{
+      "id": "castagnole_stendardo",
+      "address": "Stendardo_Paleologi",
+      "label": "Castagnole",
+
+      "critical": true,
+      "source": "local",
+
+      "ui": {
+        "hasButton": false,
+        "buttonSize": { "w": 195, "h": 40 }
+      },
+
+      "content": {
+        "newsFeed": "paesi/bandoCastagnole"
+      },
+
+      "transform": {
+        "position": { "x": -95.2, "y": 6.0, "z": -129.1},
+        "rotation": { "x": 0, "y": 115, "z": 0 },
+        "scale":    { "x": 1.5, "y": 1.5, "z": 1.5 }
       }
     },
 	{
       "id": "castelletto_merli",
-      "address": "Stendardo_Paleologi",
-      "label": "Castelletto de' Merli",
+      "address": "CastelloExa",
+      "label": "Castelletto",
 
       "critical": true,
       "source": "local",
 
       "ui": {
         "hasButton": true,
-        "buttonSize": { "w": 305, "h": 40 }
+        "buttonSize": { "w": 195, "h": 40 }
       },
 
       "content": {
@@ -678,12 +770,12 @@
 
       "transform": {
         "position": { "x": -209.5, "y": 6.0, "z": 144.6 },
-        "rotation": { "x": 0, "y": 30, "z": 0 },
-        "scale":    { "x":1.5, "y": 1.5, "z":1.5 }
+        "rotation": { "x": 0, "y": 0, "z": 0 },
+        "scale":    { "x": 1.3, "y": 1.3, "z": 1.3 }
       }
     },
 	{
-      "id": "castelletto_monferrato",
+      "id": "castelletto_merli_stendardo",
       "address": "Stendardo_Paleologi",
       "label": "Castelletto",
 
@@ -691,8 +783,31 @@
       "source": "local",
 
       "ui": {
+        "hasButton": false,
+        "buttonSize": { "w": 195, "h": 40 }
+      },
+
+      "content": {
+        "newsFeed": "paesi/bandoCastellettoMerli"
+      },
+
+      "transform": {
+        "position": { "x": -220, "y": 6.0, "z": 150.2 },
+        "rotation": { "x": 0, "y": 107, "z": 0 },
+        "scale":    { "x": 1.5, "y": 1.5, "z": 1.5 }
+      }
+    },
+	{
+      "id": "castelletto_monferrato",
+      "address": "CastelloGrande",
+      "label": "Castelletto Scazzoso",
+
+      "critical": true,
+      "source": "local",
+
+      "ui": {
         "hasButton": true,
-        "buttonSize": { "w": 190, "h": 40 }
+        "buttonSize": { "w": 315, "h": 40 }
       },
 
       "content": {
@@ -701,8 +816,31 @@
 
       "transform": {
         "position": { "x": 311.3, "y": 6.0, "z": -95.3 },
-        "rotation": { "x": 0, "y": 140, "z": 0 },
-        "scale":    { "x":1.5, "y": 1.5, "z":1.5 }
+        "rotation": { "x": 0, "y": 65, "z": 0 },
+        "scale":    { "x": 1.2, "y": 1.2, "z": 1.2 }
+      }
+    },
+	{
+      "id": "castelletto_monferrato_stendardo",
+      "address": "Stendardo_Paleologi",
+      "label": "Castelletto Scazzoso",
+
+      "critical": true,
+      "source": "local",
+
+      "ui": {
+        "hasButton": false,
+        "buttonSize": { "w": 315, "h": 40 }
+      },
+
+      "content": {
+        "newsFeed": "paesi/bandoCastellettoMonf"
+      },
+
+      "transform": {
+        "position": { "x": 300, "y": 6.0, "z": -89 },
+        "rotation": { "x": 0, "y": 122, "z": 0 },
+        "scale":    { "x": 1.5, "y": 1.5, "z": 1.5 }
       }
     },
 	{
@@ -725,7 +863,7 @@
       "transform": {
         "position": { "x": -77.8, "y": 6.0, "z": -320.6 },
         "rotation": { "x": 0, "y": 180, "z": 0 },
-        "scale":    { "x": 1.2, "y": 1.2, "z":1.2 }
+        "scale":    { "x": 1.2, "y": 1.2, "z": 1.2 }
       }
     },
 	{
@@ -746,9 +884,9 @@
       },
 
       "transform": {
-        "position": { "x": 135, "y": 6.0, "z": 260 },
+        "position": { "x": -87.8, "y": 6.0, "z": -312 },
         "rotation": { "x": 0, "y": 180, "z": 0 },
-        "scale":    { "x":1.5, "y": 1.5, "z":1.5 }
+        "scale":    { "x": 1.5, "y": 1.5, "z": 1.5 }
       }
     },
 	{
@@ -771,11 +909,11 @@
       "transform": {
         "position": { "x": 41.4, "y": 6.0, "z": 113.3 },
         "rotation": { "x": 0, "y": 160, "z": 0 },
-        "scale":    { "x":1.2, "y": 1.2, "z":1.2 }
+        "scale":    { "x": 1.2, "y": 1.2, "z": 1.2 }
       }
     },
 	{
-      "id": "cella_monte",
+      "id": "cella_monte_stendardo",
       "address": "Stendardo_Paleologi",
       "label": "Cella",
 
@@ -783,7 +921,7 @@
       "source": "local",
 
       "ui": {
-        "hasButton": true,
+        "hasButton": false,
         "buttonSize": { "w": 120, "h": 40 }
       },
 
@@ -792,13 +930,13 @@
       },
 
       "transform": {
-        "position": { "x": 41.4, "y": 6.0, "z": 113.3 },
-        "rotation": { "x": 0, "y": 160, "z": 0 },
-        "scale":    { "x":1.5, "y": 1.5, "z":1.5 }
+        "position": { "x": 33.9, "y": 6.0, "z": 113.3 },
+        "rotation": { "x": 0, "y": 140, "z": 0 },
+        "scale":    { "x": 1.5, "y": 1.5, "z": 1.5 }
       }
     },
 	{
-      "id": "cereseto",
+      "id": "cereseto_stendardo",
       "address": "Stendardo_Paleologi",
       "label": "Cereseto",
 
@@ -821,7 +959,7 @@
       }
     },
 	{
-      "id": "cerrina",
+      "id": "cerrina_stendardo",
       "address": "Stendardo_Paleologi",
       "label": "Cerrina",
 
@@ -844,7 +982,7 @@
       }
     },
 	{
-      "id": "cerro_tanaro",
+      "id": "cerro_tanaro_stendardo",
       "address": "Stendardo_Paleologi",
       "label": "Cerro",
 
@@ -867,7 +1005,7 @@
       }
     },
 	{
-      "id": "coniolo",
+      "id": "coniolo_stendardo",
       "address": "Stendardo_Paleologi",
       "label": "Coniolo",
 
@@ -890,7 +1028,7 @@
       }
     },
 	{
-      "id": "conzano",
+      "id": "conzano_stendardo",
       "address": "Stendardo_Paleologi",
       "label": "Conzano",
 
@@ -913,7 +1051,7 @@
       }
     },
 	{
-      "id": "cuccaro",
+      "id": "cuccaro_stendardo",
       "address": "Stendardo_Paleologi",
       "label": "Cuccaro",
 
@@ -936,7 +1074,7 @@
       }
     },
 	{
-      "id": "frassinello",
+      "id": "frassinello_stendardo",
       "address": "Stendardo_Paleologi",
       "label": "Frassinello",
 
@@ -959,7 +1097,7 @@
       }
     },
 	{
-      "id": "frassineto_po",
+      "id": "frassineto_stendardo",
       "address": "Stendardo_Paleologi",
       "label": "Frassineto",
 
@@ -982,7 +1120,7 @@
       }
     },
 	{
-      "id": "fubine",
+      "id": "fubine_stendardo",
       "address": "Stendardo_Paleologi",
       "label": "Fubine",
 
@@ -1005,7 +1143,7 @@
       }
     },
 	{
-      "id": "gabiano",
+      "id": "gabiano_stendardo",
       "address": "Stendardo_Paleologi",
       "label": "Gabiano",
 
@@ -1028,7 +1166,7 @@
       }
     },
 	{
-      "id": "giarole",
+      "id": "giarole_stendardo",
       "address": "Stendardo_Paleologi",
       "label": "Giarole",
 
@@ -1051,7 +1189,7 @@
       }
     },
 	{
-      "id": "lignano",
+      "id": "lignano_stendardo",
       "address": "Stendardo_Paleologi",
       "label": "Lignano",
 
@@ -1074,7 +1212,7 @@
       }
     },
 	{
-      "id": "lu",
+      "id": "lu_stendardo",
       "address": "Stendardo_Paleologi",
       "label": "Lu",
 
@@ -1097,7 +1235,7 @@
       }
     },
 	{
-      "id": "mirabello",
+      "id": "mirabello_stendardo",
       "address": "Stendardo_Paleologi",
       "label": "Mirabello",
 
@@ -1120,7 +1258,7 @@
       }
     },
 	{
-      "id": "mombello",
+      "id": "mombello_stendardo",
       "address": "Stendardo_Paleologi",
       "label": "Mombello",
 
@@ -1143,7 +1281,7 @@
       }
     },
 	{
-      "id": "montemagno",
+      "id": "montemagno_stendardo",
       "address": "Stendardo_Paleologi",
       "label": "Montemagno",
 
@@ -1166,7 +1304,7 @@
       }
     },
 	{
-      "id": "morano",
+      "id": "morano_stendardo",
       "address": "Stendardo_Paleologi",
       "label": "Morano",
 
@@ -1189,7 +1327,7 @@
       }
     },
 	{
-      "id": "murisengo",
+      "id": "murisengo_stendardo",
       "address": "Stendardo_Paleologi",
       "label": "Murisengo",
 
@@ -1212,7 +1350,7 @@
       }
     },
 	{
-      "id": "occimiano",
+      "id": "occimiano_stendardo",
       "address": "Stendardo_Paleologi",
       "label": "Occimiano",
 
@@ -1235,7 +1373,7 @@
       }
     },
 	{
-      "id": "odalengo_grande",
+      "id": "odalengo_grande_stendardo",
       "address": "Stendardo_Paleologi",
       "label": "Odalengo Grande",
 
@@ -1258,7 +1396,7 @@
       }
     },
 	{
-      "id": "odalengo_piccolo",
+      "id": "odalengo_piccolo_stendardo",
       "address": "Stendardo_Paleologi",
       "label": "Odalengo Piccolo",
 
@@ -1281,7 +1419,7 @@
       }
     },
 	{
-      "id": "olivola",
+      "id": "olivola_stendardo",
       "address": "Stendardo_Paleologi",
       "label": "Olivola",
 
@@ -1304,7 +1442,7 @@
       }
     },
 	{
-      "id": "ozzano",
+      "id": "ozzano_stendardo",
       "address": "Stendardo_Paleologi",
       "label": "Ozzano",
 
@@ -1327,7 +1465,7 @@
       }
     },
 	{
-      "id": "penango",
+      "id": "penango_stendardo",
       "address": "Stendardo_Paleologi",
       "label": "Penango",
 
@@ -1350,7 +1488,7 @@
       }
     },
 	{
-      "id": "pessine",
+      "id": "pessine_stendardo",
       "address": "Stendardo_Paleologi",
       "label": "Pessine",
 
@@ -1373,7 +1511,7 @@
       }
     },
 	{
-      "id": "pobietto",
+      "id": "pobietto_stendardo",
       "address": "Stendardo_Paleologi",
       "label": "Pobietto",
 
@@ -1396,7 +1534,7 @@
       }
     },
 	{
-      "id": "refrancore",
+      "id": "refrancore_stendardo",
       "address": "Stendardo_Paleologi",
       "label": "Refrancore",
 
@@ -1419,7 +1557,7 @@
       }
     },
 	{
-      "id": "roncaglia",
+      "id": "roncaglia_stendardo",
       "address": "Stendardo_Paleologi",
       "label": "Roncaglia",
 
@@ -1442,7 +1580,7 @@
       }
     },
 	{
-      "id": "rosignano",
+      "id": "rosignano_stendardo",
       "address": "Stendardo_Paleologi",
       "label": "Rosignano",
 
@@ -1465,7 +1603,7 @@
       }
     },
 	{
-      "id": "sala",
+      "id": "sala_stendardo",
       "address": "Stendardo_Paleologi",
       "label": "Sala",
 
@@ -1488,7 +1626,7 @@
       }
     },
 	{
-      "id": "sangiorgio",
+      "id": "sangiorgio_stendardo",
       "address": "Stendardo_Paleologi",
       "label": "San Giorgio",
 
@@ -1511,7 +1649,7 @@
       }
     },
 	{
-      "id": "sansalvatore",
+      "id": "sansalvatore_stendardo",
       "address": "Stendardo_Paleologi",
       "label": "San Salvatore",
 
@@ -1534,7 +1672,7 @@
       }
     },
 	{
-      "id": "terruggia",
+      "id": "terruggia_stendardo",
       "address": "Stendardo_Paleologi",
       "label": "Terruggia",
 
@@ -1557,7 +1695,7 @@
       }
     },
 	{
-      "id": "ticineto",
+      "id": "ticineto_stendardo",
       "address": "Stendardo_Paleologi",
       "label": "Ticineto",
 
@@ -1580,7 +1718,7 @@
       }
     },
 	{
-      "id": "treville",
+      "id": "treville_stendardo",
       "address": "Stendardo_Paleologi",
       "label": "Treville",
 
@@ -1603,7 +1741,7 @@
       }
     },
 	{
-      "id": "trino",
+      "id": "trino_stendardo",
       "address": "Stendardo_Paleologi",
       "label": "Trino",
 
@@ -1626,7 +1764,7 @@
       }
     },
 	{
-      "id": "valenza",
+      "id": "valenza_stendardo",
       "address": "Stendardo_Paleologi",
       "label": "Valenza",
 
@@ -1649,7 +1787,7 @@
       }
     },
 	{
-      "id": "valmacca",
+      "id": "valmacca_stendardo",
       "address": "Stendardo_Paleologi",
       "label": "Valmacca",
 
@@ -1672,7 +1810,7 @@
       }
     },
 	{
-      "id": "vignale",
+      "id": "vignale_stendardo",
       "address": "Stendardo_Paleologi",
       "label": "Vignale",
 
@@ -1695,7 +1833,7 @@
       }
     },
 	{
-      "id": "villanova",
+      "id": "villanova_stendardo",
       "address": "Stendardo_Paleologi",
       "label": "Villanova",
 
@@ -1750,9 +1888,9 @@
      },
 	 
      "transform": {
-       "position": { "x": 0.0, "y": 6.0, "z": 0.0 },
-       "rotation": { "x": 0, "y": 70, "z": 0 },
-       "scale": { "x": 1, "y": 1, "z": 1 }
+       "position": { "x": 107.0, "y": 6.0, "z": 242.0 },
+       "rotation": { "x": 0, "y": 90, "z": 0 },
+       "scale": { "x": 1.5, "y": 1.5, "z": 1.5 }
      }
    },
    {
@@ -1786,9 +1924,9 @@
      },
 	 
      "transform": {
-       "position": { "x": 0.0, "y": 6.0, "z": 0.0 },
-       "rotation": { "x": 0, "y": 90, "z": 0 },
-       "scale": { "x": 1, "y": 1, "z": 1 }
+       "position": { "x": -769.2, "y": 6.0, "z": 368.5},
+       "rotation": { "x": 0, "y": 60, "z": 0 },
+       "scale": { "x": 1.5, "y": 1.5, "z": 1.5 }
      }
    },
    {
@@ -1822,9 +1960,9 @@
      },
 	 
      "transform": {
-       "position": { "x": 0.0, "y": 6.0, "z": 0.0 },
-       "rotation": { "x": 0, "y": 30, "z": 0 },
-       "scale": { "x": 1, "y": 1, "z": 1 }
+       "position": { "x": 317.3, "y": 6.0, "z": 166.0 },
+       "rotation": { "x": 0, "y": 220, "z": 0 },
+       "scale": { "x": 1.5, "y": 1.5, "z": 1.5 }
      }
    },
    {
@@ -1837,7 +1975,7 @@
 	 
      "spawnNear": {
        "cityId": "Ticineto",
-       "offset": { "x": 20, "y": 0.0, "z": 10 }
+       "offset": { "x": 27, "y": 0.0, "z": 1 }
      },
 	 
      "lifecycle": {
@@ -1858,9 +1996,9 @@
      },
 	 
      "transform": {
-       "position": { "x": 0.0, "y": 6.0, "z": 0.0 },
-       "rotation": { "x": 0, "y": 145, "z": 0 },
-       "scale": { "x": 1, "y": 1, "z": 1 }
+       "position": { "x": 327.3, "y": 6.0, "z": 165 },
+       "rotation": { "x": 0, "y": 250, "z": 0 },
+       "scale": { "x": 1.5, "y": 1.5, "z": 1.5 }
      }
    },
    {
@@ -1873,7 +2011,7 @@
 	 
      "spawnNear": {
        "cityId": "Conzano",
-       "offset": { "x": 30, "y": 0.0, "z": 5 }
+       "offset": { "x": 15, "y": 0.0, "z": -3 }
      },
 	 
      "lifecycle": {
@@ -1894,9 +2032,9 @@
      },
 	 
      "transform": {
-       "position": { "x": 0.0, "y": 6.0, "z": 0.0 },
-       "rotation": { "x": 0, "y": 90, "z": 0 },
-       "scale": { "x": 1, "y": 1, "z": 1 }
+       "position": { "x": 159.8, "y": 6.0, "z": -9.7 },
+       "rotation": { "x": 0, "y": 280, "z": 0 },
+       "scale": { "x": 1.5, "y": 1.5, "z": 1.5 }
      }
    },
    {
@@ -1909,7 +2047,7 @@
 	 
      "spawnNear": {
        "cityId": "Odalengo Grande",
-       "offset": { "x": 10, "y": 0.0, "z": 0.0 }
+       "offset": { "x": 14, "y": 0.0, "z": 9.0 }
      },
 	 
      "lifecycle": {
@@ -1930,9 +2068,9 @@
      },
 	 
      "transform": {
-       "position": { "x": 0.0, "y": 6.0, "z": 0.0 },
-       "rotation": { "x": 0, "y": 130, "z": 0 },
-       "scale": { "x": 1, "y": 1, "z": 1 }
+       "position": { "x": -295.2, "y": 6.0, "z": 200.7 },
+       "rotation": { "x": 0, "y": 240, "z": 0 },
+       "scale": { "x": 1.5, "y": 1.5, "z": 1.5 }
      }
    },
    {
@@ -1966,9 +2104,9 @@
      },
 	 
      "transform": {
-       "position": { "x": 0.0, "y": 6.0, "z": 0.0 },
+       "position": { "x": -253.6, "y": 6.0, "z": 107.6 },
        "rotation": { "x": 0, "y": 90, "z": 0 },
-       "scale": { "x": 1, "y": 1, "z": 1 }
+       "scale": { "x": 1.5, "y": 1.5, "z": 1.5 }
      }
    }
   ]
