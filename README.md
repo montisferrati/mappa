@@ -7,4 +7,4 @@ release_v1/mappa.json   </br>
 
 Tags:
 
-v0.0.7 -> 19 Maggio 26
+v0.0.8 -> 24 Maggio 26

@@ -2,11 +2,11 @@
   "_metaDatiJson": {
     "nomeJson": "mappa",
     "repoJson": "mappa",
-    "note": "Release v0.0.7"
+    "note": "Release v0.0.8"
   },
   "version": 1,
   "minAppVersion": 1,
-  "generatedAt": "2026-05-19T12:00:00Z",
+  "generatedAt": "2026-05-24T12:00:00Z",
   "terrain":{
     "layer":{
       "id": "TL_Grass",
@@ -936,8 +936,8 @@
       }
     },
 	{
-      "id": "cereseto_stendardo",
-      "address": "Stendardo_Paleologi",
+      "id": "cereseto",
+      "address": "CastelloPiccolo",
       "label": "Cereseto",
 
       "critical": true,
@@ -954,13 +954,36 @@
 
       "transform": {
         "position": { "x": -74.3, "y": 6.0, "z": 142.1 },
-        "rotation": { "x": 0, "y": 10, "z": 0 },
-        "scale":    { "x":1.5, "y": 1.5, "z":1.5 }
+        "rotation": { "x": 0, "y": 160, "z": 0 },
+        "scale":    { "x": 1.2, "y": 1.2, "z": 1.2 }
       }
     },
 	{
-      "id": "cerrina_stendardo",
+      "id": "cereseto_stendardo",
       "address": "Stendardo_Paleologi",
+      "label": "Cereseto",
+
+      "critical": true,
+      "source": "local",
+
+      "ui": {
+        "hasButton": false,
+        "buttonSize": { "w": 170, "h": 40 }
+      },
+
+      "content": {
+        "newsFeed": "paesi/bandoCereseto"
+      },
+
+      "transform": {
+        "position": { "x": -85, "y": 6.0, "z": 145 },
+        "rotation": { "x": 0, "y": 120, "z": 0 },
+        "scale":    { "x": 1.5, "y": 1.5, "z": 1.5 }
+      }
+    },
+	{
+      "id": "cerrina",
+      "address": "CastelloPiccolo",
       "label": "Cerrina",
 
       "critical": true,
@@ -977,13 +1000,36 @@
 
       "transform": {
         "position": { "x": -235.3, "y": 6.0, "z": 216.5 },
-        "rotation": { "x": 0, "y": 140, "z": 0 },
-        "scale":    { "x":1.5, "y": 1.5, "z":1.5 }
+        "rotation": { "x": 0, "y": 114, "z": 0 },
+        "scale":    { "x": 1.2, "y": 1.2, "z": 1.2 }
       }
     },
 	{
-      "id": "cerro_tanaro_stendardo",
+      "id": "cerrina_stendardo",
       "address": "Stendardo_Paleologi",
+      "label": "Cerrina",
+
+      "critical": true,
+      "source": "local",
+
+      "ui": {
+        "hasButton": false,
+        "buttonSize": { "w": 150, "h": 40 }
+      },
+
+      "content": {
+        "newsFeed": "paesi/bandoCerrina"
+      },
+
+      "transform": {
+        "position": { "x": -243, "y": 6.0, "z": 225 },
+        "rotation": { "x": 0, "y": 135, "z": 0 },
+        "scale":    { "x": 1.5, "y": 1.5, "z": 1.5 }
+      }
+    },
+	{
+      "id": "cerro_tanaro",
+      "address": "CastelloPiccolo",
       "label": "Cerro",
 
       "critical": true,
@@ -1000,13 +1046,36 @@
 
       "transform": {
         "position": { "x": -1.4, "y": 6.0, "z": -340.8 },
-        "rotation": { "x": 0, "y": 65, "z": 0 },
-        "scale":    { "x":1.5, "y": 1.5, "z":1.5 }
+        "rotation": { "x": 0, "y": 190, "z": 0 },
+        "scale":    { "x": 1.2, "y": 1.2, "z": 1.2 }
       }
     },
 	{
-      "id": "coniolo_stendardo",
+      "id": "cerro_tanaro_stendardo",
       "address": "Stendardo_Paleologi",
+      "label": "Cerro",
+
+      "critical": true,
+      "source": "local",
+
+      "ui": {
+        "hasButton": false,
+        "buttonSize": { "w": 130, "h": 40 }
+      },
+
+      "content": {
+        "newsFeed": "paesi/bandoCerroTanaro"
+      },
+
+      "transform": {
+        "position": { "x": 8, "y": 6.0, "z": -335 },
+        "rotation": { "x": 0, "y": 210, "z": 0 },
+        "scale":    { "x": 1.5, "y": 1.5, "z": 1.5 }
+      }
+    },
+	{
+      "id": "coniolo",
+      "address": "CastelloPiccolo",
       "label": "Coniolo",
 
       "critical": true,
@@ -1023,13 +1092,36 @@
 
       "transform": {
         "position": { "x": 8, "y": 6.0, "z": 279.7 },
-        "rotation": { "x": 0, "y": 80, "z": 0 },
-        "scale":    { "x":1.5, "y": 1.5, "z":1.5 }
+        "rotation": { "x": 0, "y": 188, "z": 0 },
+        "scale":    { "x": 1.2, "y": 1.2, "z": 1.2 }
       }
     },
 	{
-      "id": "conzano_stendardo",
+      "id": "coniolo_stendardo",
       "address": "Stendardo_Paleologi",
+      "label": "Coniolo",
+
+      "critical": true,
+      "source": "local",
+
+      "ui": {
+        "hasButton": false,
+        "buttonSize": { "w": 150, "h": 40 }
+      },
+
+      "content": {
+        "newsFeed": "paesi/bandoConiolo"
+      },
+
+      "transform": {
+        "position": { "x": -3.4, "y": 6.0, "z": 278 },
+        "rotation": { "x": 0, "y": 105, "z": 0 },
+        "scale":    { "x": 1.5, "y": 1.5, "z": 1.5 }
+      }
+    },
+	{
+      "id": "conzano",
+      "address": "CastelloPiccolo",
       "label": "Conzano",
 
       "critical": true,
@@ -1046,13 +1138,36 @@
 
       "transform": {
         "position": { "x": 144.8, "y": 6.0, "z": -6.7 },
-        "rotation": { "x": 0, "y": 220, "z": 0 },
-        "scale":    { "x":1.5, "y": 1.5, "z":1.5 }
+        "rotation": { "x": 0, "y": 131, "z": 0 },
+        "scale":    { "x": 1.2, "y": 1.2, "z": 1.2 }
       }
     },
 	{
-      "id": "cuccaro_stendardo",
+      "id": "conzano_stendardo",
       "address": "Stendardo_Paleologi",
+      "label": "Conzano",
+
+      "critical": true,
+      "source": "local",
+
+      "ui": {
+        "hasButton": false,
+        "buttonSize": { "w": 170, "h": 40 }
+      },
+
+      "content": {
+        "newsFeed": "paesi/bandoConzano"
+      },
+
+      "transform": {
+        "position": { "x": 150, "y": 6.0, "z": 4.1 },
+        "rotation": { "x": 0, "y": 184, "z": 0 },
+        "scale":    { "x": 1.5, "y": 1.5, "z": 1.5 }
+      }
+    },
+	{
+      "id": "cuccaro",
+      "address": "CastelloGrande",
       "label": "Cuccaro",
 
       "critical": true,
@@ -1069,8 +1184,31 @@
 
       "transform": {
         "position": { "x": 145, "y": 6.0, "z": -72.2 },
-        "rotation": { "x": 0, "y": 0, "z": 0 },
-        "scale":    { "x":1.5, "y": 1.5, "z":1.5 }
+        "rotation": { "x": 0, "y": 126, "z": 0 },
+        "scale":    { "x": 1.2, "y": 1.2, "z": 1.2 }
+      }
+    },
+	{
+      "id": "cuccaro_stendardo",
+      "address": "Stendardo_Paleologi",
+      "label": "Cuccaro",
+
+      "critical": true,
+      "source": "local",
+
+      "ui": {
+        "hasButton": false,
+        "buttonSize": { "w": 160, "h": 40 }
+      },
+
+      "content": {
+        "newsFeed": "paesi/bandoCuccaro"
+      },
+
+      "transform": {
+        "position": { "x": 138, "y": 6.0, "z": -60 },
+        "rotation": { "x": 0, "y": 120, "z": 0 },
+        "scale":    { "x": 1.5, "y": 1.5, "z": 1.5 }
       }
     },
 	{
