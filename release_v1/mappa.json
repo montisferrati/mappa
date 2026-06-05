@@ -2,11 +2,11 @@
   "_metaDatiJson": {
     "nomeJson": "mappa",
     "repoJson": "mappa",
-    "note": "Release v0.0.8"
+    "note": "Release v0.0.9"
   },
   "version": 1,
   "minAppVersion": 1,
-  "generatedAt": "2026-05-24T12:00:00Z",
+  "generatedAt": "2026-06-05T12:00:00Z",
   "terrain":{
     "layer":{
       "id": "TL_Grass",
@@ -132,7 +132,7 @@
     },
 	{
       "id": "moncalvo_stendardo",
-      "address": "Stendardo_Paleologi",
+      "address": "Stendardo_Savoia",
       "label": "Moncalvo",
 
       "critical": true,
@@ -196,6 +196,52 @@
       "transform": {
         "position": { "x": -58.1, "y": 6.0, "z": 270.3 },
         "rotation": { "x": 0, "y": 150, "z": 0 },
+        "scale":    { "x": 1.5, "y": 1.5, "z": 1.5 }
+      }
+    },
+	{
+      "id": "trino",
+      "address": "CastelloMedio",
+      "label": "Trino",
+
+      "critical": true,
+      "source": "local",
+
+      "ui": {
+        "hasButton": true,
+        "buttonSize": { "w": 110, "h": 40 }
+      },
+
+      "content": {
+        "newsFeed": "paesi/bandoTrino"
+      },
+
+      "transform": {
+        "position": { "x": -104.2, "y": 6.0, "z": 380.1},
+        "rotation": { "x": 0, "y": 140, "z": 0 },
+        "scale":    { "x": 1.2, "y": 1.2, "z": 1.2 }
+      }
+    },
+	{
+      "id": "trino_stendardo",
+      "address": "Stendardo_Paleologi",
+      "label": "Trino",
+
+      "critical": true,
+      "source": "local",
+
+      "ui": {
+        "hasButton": false,
+        "buttonSize": { "w": 110, "h": 40 }
+      },
+
+      "content": {
+        "newsFeed": "paesi/bandoTrino"
+      },
+
+      "transform": {
+        "position": { "x": -97, "y": 6.0, "z": 386.1},
+        "rotation": { "x": 0, "y": 170, "z": 0 },
         "scale":    { "x": 1.5, "y": 1.5, "z": 1.5 }
       }
     },
@@ -1874,29 +1920,6 @@
 
       "transform": {
         "position": { "x": -6.2, "y": 6.0, "z": 163.7 },
-        "rotation": { "x": 0, "y": 0, "z": 0 },
-        "scale":    { "x":1.5, "y": 1.5, "z":1.5 }
-      }
-    },
-	{
-      "id": "trino_stendardo",
-      "address": "Stendardo_Paleologi",
-      "label": "Trino",
-
-      "critical": true,
-      "source": "local",
-
-      "ui": {
-        "hasButton": true,
-        "buttonSize": { "w": 110, "h": 40 }
-      },
-
-      "content": {
-        "newsFeed": "paesi/bandoTrino"
-      },
-
-      "transform": {
-        "position": { "x": -104.2, "y": 6.0, "z": 380.1},
         "rotation": { "x": 0, "y": 0, "z": 0 },
         "scale":    { "x":1.5, "y": 1.5, "z":1.5 }
       }
