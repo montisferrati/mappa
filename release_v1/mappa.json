@@ -2,11 +2,11 @@
   "_metaDatiJson": {
     "nomeJson": "mappa",
     "repoJson": "mappa",
-    "note": "Release v0.1.0"
+    "note": "Release v0.1.1"
   },
   "version": 1,
   "minAppVersion": 1,
-  "generatedAt": "2026-06-06T12:00:00Z",
+  "generatedAt": "2026-06-13T12:00:00Z",
   "terrain":{
     "layer":{
       "id": "TL_Spring",
@@ -265,7 +265,7 @@
       "transform": {
         "position": { "x": 174.2, "y": 6.0, "z": -776.4 },
         "rotation": { "x": 0, "y": 105, "z": 0 },
-        "scale":    { "x": 1.3, "y": 1.3, "z": 1.3 }
+        "scale":    { "x": 1.2, "y": 1.2, "z": 1.2 }
       }
     },
 	{
@@ -1258,8 +1258,8 @@
       }
     },
 	{
-      "id": "frassinello_stendardo",
-      "address": "Stendardo_Paleologi",
+      "id": "frassinello",
+      "address": "CastelloPiccolo",
       "label": "Frassinello",
 
       "critical": true,
@@ -1276,13 +1276,36 @@
 
       "transform": {
         "position": { "x": 36.4, "y": 6.0, "z": 20.5 },
-        "rotation": { "x": 0, "y": 0, "z": 0 },
-        "scale":    { "x":1.5, "y": 1.5, "z":1.5 }
+        "rotation": { "x": 0, "y": 140, "z": 0 },
+        "scale":    { "x": 1.2, "y": 1.2, "z": 1.2 }
       }
     },
 	{
-      "id": "frassineto_stendardo",
+      "id": "frassinello_stendardo",
       "address": "Stendardo_Paleologi",
+      "label": "Frassinello",
+
+      "critical": true,
+      "source": "local",
+
+      "ui": {
+        "hasButton": false,
+        "buttonSize": { "w": 190, "h": 40 }
+      },
+
+      "content": {
+        "newsFeed": "paesi/bandoFrassinello"
+      },
+
+      "transform": {
+        "position": { "x": 41.4, "y": 6.0, "z": 28.5 },
+        "rotation": { "x": 0, "y": 190, "z": 0 },
+        "scale":    { "x": 1.5, "y": 1.5, "z": 1.5 }
+      }
+    },
+	{
+      "id": "frassineto",
+      "address": "CastelloPiccolo",
       "label": "Frassineto",
 
       "critical": true,
@@ -1299,13 +1322,36 @@
 
       "transform": {
         "position": { "x": 265.3, "y": 6.0, "z": 249.8 },
-        "rotation": { "x": 0, "y": 0, "z": 0 },
-        "scale":    { "x":1.5, "y": 1.5, "z":1.5 }
+        "rotation": { "x": 0, "y": 190, "z": 0 },
+        "scale":    { "x": 1.2, "y": 1.2, "z": 1.2 }
       }
     },
 	{
-      "id": "fubine_stendardo",
+      "id": "frassineto_stendardo",
       "address": "Stendardo_Paleologi",
+      "label": "Frassineto",
+
+      "critical": true,
+      "source": "local",
+
+      "ui": {
+        "hasButton": false,
+        "buttonSize": { "w": 190, "h": 40 }
+      },
+
+      "content": {
+        "newsFeed": "paesi/bandoFrassineto"
+      },
+
+      "transform": {
+        "position": { "x": 254.6, "y": 6.0, "z": 252.3 },
+        "rotation": { "x": 0, "y": 135, "z": 0 },
+        "scale":    { "x": 1.5, "y": 1.5, "z": 1.5 }
+      }
+    },
+	{
+      "id": "fubine",
+      "address": "CastelloPiccolo",
       "label": "Fubine",
 
       "critical": true,
@@ -1322,13 +1368,36 @@
 
       "transform": {
         "position": { "x": 91.2, "y": 6.0, "z": -126.4 },
-        "rotation": { "x": 0, "y": 0, "z": 0 },
-        "scale":    { "x":1.5, "y": 1.5, "z":1.5 }
+        "rotation": { "x": 0, "y": 130, "z": 0 },
+        "scale":    { "x": 1.2, "y": 1.2, "z": 1.2 }
       }
     },
 	{
-      "id": "gabiano_stendardo",
+      "id": "fubine_stendardo",
       "address": "Stendardo_Paleologi",
+      "label": "Fubine",
+
+      "critical": true,
+      "source": "local",
+
+      "ui": {
+        "hasButton": false,
+        "buttonSize": { "w": 140, "h": 40 }
+      },
+
+      "content": {
+        "newsFeed": "paesi/bandoFubine"
+      },
+
+      "transform": {
+        "position": { "x": 94.2, "y": 6.0, "z": -118 },
+        "rotation": { "x": 0, "y": 180, "z": 0 },
+        "scale":    { "x": 1.5, "y": 1.5, "z": 1.5 }
+      }
+    },
+	{
+      "id": "gabiano",
+      "address": "CastelloPiccolo",
       "label": "Gabiano",
 
       "critical": true,
@@ -1345,13 +1414,36 @@
 
       "transform": {
         "position": { "x": -270.2, "y": 6.0, "z": 304.1 },
-        "rotation": { "x": 0, "y": 0, "z": 0 },
-        "scale":    { "x":1.5, "y": 1.5, "z":1.5 }
+        "rotation": { "x": 0, "y": 210, "z": 0 },
+        "scale":    { "x": 1.2, "y": 1.2, "z": 1.2 }
       }
     },
 	{
-      "id": "giarole_stendardo",
+      "id": "gabiano_stendardo",
       "address": "Stendardo_Paleologi",
+      "label": "Gabiano",
+
+      "critical": true,
+      "source": "local",
+
+      "ui": {
+        "hasButton": false,
+        "buttonSize": { "w": 160, "h": 40 }
+      },
+
+      "content": {
+        "newsFeed": "paesi/bandoGabiano"
+      },
+
+      "transform": {
+        "position": { "x": -281.5, "y": 6.0, "z": 307.5 },
+        "rotation": { "x": 0, "y": 147, "z": 0 },
+        "scale":    { "x": 1.5, "y": 1.5, "z": 1.5 }
+      }
+    },
+	{
+      "id": "giarole",
+      "address": "CastelloPiccolo",
       "label": "Giarole",
 
       "critical": true,
@@ -1368,13 +1460,36 @@
 
       "transform": {
         "position": { "x": 315.8, "y": 6.0, "z": 86 },
-        "rotation": { "x": 0, "y": 0, "z": 0 },
-        "scale":    { "x":1.5, "y": 1.5, "z":1.5 }
+        "rotation": { "x": 0, "y": 155, "z": 0 },
+        "scale":    { "x": 1.2, "y": 1.2, "z": 1.2 }
       }
     },
 	{
-      "id": "lignano_stendardo",
+      "id": "giarole_stendardo",
       "address": "Stendardo_Paleologi",
+      "label": "Giarole",
+
+      "critical": true,
+      "source": "local",
+
+      "ui": {
+        "hasButton": false,
+        "buttonSize": { "w": 140, "h": 40 }
+      },
+
+      "content": {
+        "newsFeed": "paesi/bandoGiarole"
+      },
+
+      "transform": {
+        "position": { "x": 322.2, "y": 6.0, "z": 90.5 },
+        "rotation": { "x": 0, "y": 202, "z": 0 },
+        "scale":    { "x": 1.5, "y": 1.5, "z": 1.5 }
+      }
+    },
+	{
+      "id": "lignano",
+      "address": "CastelloPiccolo",
       "label": "Lignano",
 
       "critical": true,
@@ -1391,13 +1506,36 @@
 
       "transform": {
         "position": { "x": 73.5, "y": 6.0, "z": 32.8 },
-        "rotation": { "x": 0, "y": 0, "z": 0 },
-        "scale":    { "x":1.5, "y": 1.5, "z":1.5 }
+        "rotation": { "x": 0, "y": 195, "z": 0 },
+        "scale":    { "x": 1.2, "y": 1.2, "z": 1.2 }
       }
     },
 	{
-      "id": "lu_stendardo",
+      "id": "lignano_stendardo",
       "address": "Stendardo_Paleologi",
+      "label": "Lignano",
+
+      "critical": true,
+      "source": "local",
+
+      "ui": {
+        "hasButton": false,
+        "buttonSize": { "w": 160, "h": 40 }
+      },
+
+      "content": {
+        "newsFeed": "paesi/bandoLignano"
+      },
+
+      "transform": {
+        "position": { "x": 64.8, "y": 6.0, "z": 34.8 },
+        "rotation": { "x": 0, "y": 136, "z": 0 },
+        "scale":    { "x": 1.5, "y": 1.5, "z": 1.5 }
+      }
+    },
+	{
+      "id": "lu",
+      "address": "CastelloPiccolo",
       "label": "Lu",
 
       "critical": true,
@@ -1414,13 +1552,36 @@
 
       "transform": {
         "position": { "x": 186.2, "y": 6.0, "z": -48.7 },
-        "rotation": { "x": 0, "y": 0, "z": 0 },
-        "scale":    { "x":1.5, "y": 1.5, "z":1.5 }
+        "rotation": { "x": 0, "y": 178, "z": 0 },
+        "scale":    { "x": 1.2, "y": 1.2, "z": 1.2 }
       }
     },
 	{
-      "id": "mirabello_stendardo",
+      "id": "lu_stendardo",
       "address": "Stendardo_Paleologi",
+      "label": "Lu",
+
+      "critical": true,
+      "source": "local",
+
+      "ui": {
+        "hasButton": false,
+        "buttonSize": { "w": 90, "h": 40 }
+      },
+
+      "content": {
+        "newsFeed": "paesi/bandoLu"
+      },
+
+      "transform": {
+        "position": { "x": 177, "y": 6.0, "z": -48 },
+        "rotation": { "x": 0, "y": 125, "z": 0 },
+        "scale":    { "x": 1.5, "y": 1.5, "z": 1.5 }
+      }
+    },
+	{
+      "id": "mirabello",
+      "address": "CastelloPiccolo",
       "label": "Mirabello",
 
       "critical": true,
@@ -1437,13 +1598,36 @@
 
       "transform": {
         "position": { "x": 278.6, "y": 6.0, "z": 47.5 },
-        "rotation": { "x": 0, "y": 0, "z": 0 },
-        "scale":    { "x":1.5, "y": 1.5, "z":1.5 }
+        "rotation": { "x": 0, "y": 186, "z": 0 },
+        "scale":    { "x": 1.2, "y": 1.2, "z": 1.2 }
       }
     },
 	{
-      "id": "mombello_stendardo",
+      "id": "mirabello_stendardo",
       "address": "Stendardo_Paleologi",
+      "label": "Mirabello",
+
+      "critical": true,
+      "source": "local",
+
+      "ui": {
+        "hasButton": false,
+        "buttonSize": { "w": 170, "h": 40 }
+      },
+
+      "content": {
+        "newsFeed": "paesi/bandoMirabello"
+      },
+
+      "transform": {
+        "position": { "x": 268, "y": 6.0, "z": 53 },
+        "rotation": { "x": 0, "y": 131, "z": 0 },
+        "scale":    { "x": 1.5, "y": 1.5, "z": 1.5 }
+      }
+    },
+	{
+      "id": "mombello",
+      "address": "CastelloPiccolo",
       "label": "Mombello",
 
       "critical": true,
@@ -1460,13 +1644,36 @@
 
       "transform": {
         "position": { "x": -178.9, "y": 6.0, "z": 243.9 },
-        "rotation": { "x": 0, "y": 0, "z": 0 },
-        "scale":    { "x":1.5, "y": 1.5, "z":1.5 }
+        "rotation": { "x": 0, "y": 142, "z": 0 },
+        "scale":    { "x": 1.2, "y": 1.2, "z": 1.2 }
       }
     },
 	{
-      "id": "montemagno_stendardo",
+      "id": "mombello_stendardo",
       "address": "Stendardo_Paleologi",
+      "label": "Mombello",
+
+      "critical": true,
+      "source": "local",
+
+      "ui": {
+        "hasButton": false,
+        "buttonSize": { "w": 180, "h": 40 }
+      },
+
+      "content": {
+        "newsFeed": "paesi/bandoMombello"
+      },
+
+      "transform": {
+        "position": { "x": -173, "y": 6.0, "z": 250 },
+        "rotation": { "x": 0, "y": 180, "z": 0 },
+        "scale":    { "x": 1.5, "y": 1.5, "z": 1.5 }
+      }
+    },
+	{
+      "id": "montemagno",
+      "address": "CastelloPiccolo",
       "label": "Montemagno",
 
       "critical": true,
@@ -1483,13 +1690,36 @@
 
       "transform": {
         "position": { "x": -62.1, "y": 6.0, "z": -88.9 },
-        "rotation": { "x": 0, "y": 0, "z": 0 },
-        "scale":    { "x":1.5, "y": 1.5, "z":1.5 }
+        "rotation": { "x": 0, "y": 175, "z": 0 },
+        "scale":    { "x": 1.2, "y": 1.2, "z": 1.2 }
       }
     },
 	{
-      "id": "morano_stendardo",
-      "address": "Stendardo_Paleologi",
+      "id": "montemagno_stendardo",
+      "address": "Stendardo_Visconti",
+      "label": "Montemagno",
+
+      "critical": true,
+      "source": "local",
+
+      "ui": {
+        "hasButton": false,
+        "buttonSize": { "w": 210, "h": 40 }
+      },
+
+      "content": {
+        "newsFeed": "paesi/bandoMontemagno"
+      },
+
+      "transform": {
+        "position": { "x": -72, "y": 6.0, "z": -84.1 },
+        "rotation": { "x": 0, "y": 160, "z": 0 },
+        "scale":    { "x": 1.5, "y": 1.5, "z": 1.5 }
+      }
+    },
+	{
+      "id": "morano",
+      "address": "CastelloPiccolo",
       "label": "Morano",
 
       "critical": true,
@@ -1506,13 +1736,36 @@
 
       "transform": {
         "position": { "x": 0, "y": 6.0, "z": 312.6 },
-        "rotation": { "x": 0, "y": 0, "z": 0 },
-        "scale":    { "x":1.5, "y": 1.5, "z":1.5 }
+        "rotation": { "x": 0, "y": 131, "z": 0 },
+        "scale":    { "x": 1.2, "y": 1.2, "z": 1.2 }
       }
     },
 	{
-      "id": "murisengo_stendardo",
-      "address": "Stendardo_Paleologi",
+      "id": "morano_stendardo",
+      "address": "Stendardo_Savoia",
+      "label": "Morano",
+
+      "critical": true,
+      "source": "local",
+
+      "ui": {
+        "hasButton": false,
+        "buttonSize": { "w": 140, "h": 40 }
+      },
+
+      "content": {
+        "newsFeed": "paesi/bandoMorano"
+      },
+
+      "transform": {
+        "position": { "x": 5, "y": 6.0, "z": 320 },
+        "rotation": { "x": 0, "y": 188, "z": 0 },
+        "scale":    { "x": 1.5, "y": 1.5, "z": 1.5 }
+      }
+    },
+	{
+      "id": "murisengo",
+      "address": "CastelloPiccolo",
       "label": "Murisengo",
 
       "critical": true,
@@ -1529,13 +1782,36 @@
 
       "transform": {
         "position": { "x": -351.9, "y": 6.0, "z": 138.3 },
-        "rotation": { "x": 0, "y": 0, "z": 0 },
+        "rotation": { "x": 0, "y": 151, "z": 0 },
+        "scale":    { "x": 1.2, "y": 1.2, "z": 1.2 }
+      }
+    },
+	{
+      "id": "murisengo_stendardo",
+      "address": "Stendardo_Paleologi",
+      "label": "Murisengo",
+
+      "critical": true,
+      "source": "local",
+
+      "ui": {
+        "hasButton": false,
+        "buttonSize": { "w": 180, "h": 40 }
+      },
+
+      "content": {
+        "newsFeed": "paesi/bandoMurisengo"
+      },
+
+      "transform": {
+        "position": { "x": -345, "y": 6.0, "z": 143 },
+        "rotation": { "x": 0, "y": 180, "z": 0 },
         "scale":    { "x": 1.5, "y": 1.5, "z": 1.5 }
       }
     },
 	{
-      "id": "occimiano_stendardo",
-      "address": "Stendardo_Paleologi",
+      "id": "occimiano",
+      "address": "CastelloPiccolo",
       "label": "Occimiano",
 
       "critical": true,
@@ -1552,13 +1828,36 @@
 
       "transform": {
         "position": { "x": 221.4, "y": 6.0, "z": 85.3 },
-        "rotation": { "x": 0, "y": 0, "z": 0 },
-        "scale":    { "x":1.5, "y": 1.5, "z":1.5 }
+        "rotation": { "x": 0, "y": 107, "z": 0 },
+        "scale":    { "x": 1.2, "y": 1.2, "z": 1.2 }
       }
     },
 	{
-      "id": "odalengo_grande_stendardo",
+      "id": "occimiano_stendardo",
       "address": "Stendardo_Paleologi",
+      "label": "Occimiano",
+
+      "critical": true,
+      "source": "local",
+
+      "ui": {
+        "hasButton": false,
+        "buttonSize": { "w": 185, "h": 40 }
+      },
+
+      "content": {
+        "newsFeed": "paesi/bandoOccimiano"
+      },
+
+      "transform": {
+        "position": { "x": 216, "y": 6.0, "z": 93 },
+        "rotation": { "x": 0, "y": 133, "z": 0 },
+        "scale":    { "x": 1.5, "y": 1.5, "z": 1.5 }
+      }
+    },
+	{
+      "id": "odalengo_grande",
+      "address": "TorreD",
       "label": "Odalengo Grande",
 
       "critical": true,
@@ -1576,12 +1875,35 @@
       "transform": {
         "position": { "x": -309.2, "y": 6.0, "z": 191.7 },
         "rotation": { "x": 0, "y": 310, "z": 0 },
-        "scale":    { "x":1.5, "y": 1.5, "z":1.5 }
+        "scale":    { "x": 0.3, "y": 0.3, "z": 0.3 }
       }
     },
 	{
-      "id": "odalengo_piccolo_stendardo",
+      "id": "odalengo_grande_stendardo",
       "address": "Stendardo_Paleologi",
+      "label": "Odalengo Grande",
+
+      "critical": true,
+      "source": "local",
+
+      "ui": {
+        "hasButton": false,
+        "buttonSize": { "w": 270, "h": 40 }
+      },
+
+      "content": {
+        "newsFeed": "paesi/bandoOdalengoG"
+      },
+
+      "transform": {
+        "position": { "x": -305, "y": 6.0, "z": 200 },
+        "rotation": { "x": 0, "y": 142, "z": 0 },
+        "scale":    { "x": 1.5, "y": 1.5, "z": 1.5 }
+      }
+    },
+	{
+      "id": "odalengo_piccolo",
+      "address": "TorreD",
       "label": "Odalengo Piccolo",
 
       "critical": true,
@@ -1598,13 +1920,36 @@
 
       "transform": {
         "position": { "x": -243.6, "y": 6.0, "z": 107.6 },
-        "rotation": { "x": 0, "y": 310, "z": 0 },
-        "scale":    { "x":1.5, "y": 1.5, "z":1.5 }
+        "rotation": { "x": 0, "y": 20, "z": 0 },
+        "scale":    { "x": 0.3, "y": 0.3, "z": 0.3 }
       }
     },
 	{
-      "id": "olivola_stendardo",
+      "id": "odalengo_piccolo_stendardo",
       "address": "Stendardo_Paleologi",
+      "label": "Odalengo Piccolo",
+
+      "critical": true,
+      "source": "local",
+
+      "ui": {
+        "hasButton": false,
+        "buttonSize": { "w": 270, "h": 40 }
+      },
+
+      "content": {
+        "newsFeed": "paesi/bandoOdalengoP"
+      },
+
+      "transform": {
+        "position": { "x": -249, "y": 6.0, "z": 114 },
+        "rotation": { "x": 0, "y": 157, "z": 0 },
+        "scale":    { "x": 1.5, "y": 1.5, "z": 1.5 }
+      }
+    },
+	{
+      "id": "olivola",
+      "address": "CastelloPiccolo",
       "label": "Olivola",
 
       "critical": true,
@@ -1621,13 +1966,36 @@
 
       "transform": {
         "position": { "x": 3.9, "y": 6.0, "z": 31 },
-        "rotation": { "x": 0, "y": 0, "z": 0 },
-        "scale":    { "x":1.5, "y": 1.5, "z":1.5 }
+        "rotation": { "x": 0, "y": 220, "z": 0 },
+        "scale":    { "x": 1.2, "y": 1.2, "z": 1.2 }
       }
     },
 	{
-      "id": "ozzano_stendardo",
+      "id": "olivola_stendardo",
       "address": "Stendardo_Paleologi",
+      "label": "Olivola",
+
+      "critical": true,
+      "source": "local",
+
+      "ui": {
+        "hasButton": false,
+        "buttonSize": { "w": 150, "h": 40 }
+      },
+
+      "content": {
+        "newsFeed": "paesi/bandoOlivola"
+      },
+
+      "transform": {
+        "position": { "x": -2.6, "y": 6.0, "z": 37 },
+        "rotation": { "x": 0, "y": 147, "z": 0 },
+        "scale":    { "x": 1.5, "y": 1.5, "z": 1.5 }
+      }
+    },
+	{
+      "id": "ozzano",
+      "address": "CastelloPiccolo",
       "label": "Ozzano",
 
       "critical": true,
@@ -1644,13 +2012,36 @@
 
       "transform": {
         "position": { "x": 18.4, "y": 6.0, "z": 178.1 },
-        "rotation": { "x": 0, "y": 0, "z": 0 },
-        "scale":    { "x":1.5, "y": 1.5, "z":1.5 }
+        "rotation": { "x": 0, "y": 178, "z": 0 },
+        "scale":    { "x": 1.2, "y": 1.2, "z": 1.2 }
       }
     },
 	{
-      "id": "penango_stendardo",
+      "id": "ozzano_stendardo",
       "address": "Stendardo_Paleologi",
+      "label": "Ozzano",
+
+      "critical": true,
+      "source": "local",
+
+      "ui": {
+        "hasButton": false,
+        "buttonSize": { "w": 150, "h": 40 }
+      },
+
+      "content": {
+        "newsFeed": "paesi/bandoOzzano"
+      },
+
+      "transform": {
+        "position": { "x": 11, "y": 6.0, "z": 182 },
+        "rotation": { "x": 0, "y": 135, "z": 0 },
+        "scale":    { "x": 1.5, "y": 1.5, "z": 1.5 }
+      }
+    },
+	{
+      "id": "penango",
+      "address": "CastelloPiccolo",
       "label": "Penango",
 
       "critical": true,
@@ -1667,13 +2058,36 @@
 
       "transform": {
         "position": { "x": -178.1, "y": 6.0, "z": 19.8 },
-        "rotation": { "x": 0, "y": 0, "z": 0 },
-        "scale":    { "x":1.5, "y": 1.5, "z":1.5 }
+        "rotation": { "x": 0, "y": 219, "z": 0 },
+        "scale":    { "x": 1.2, "y": 1.2, "z": 1.2 }
       }
     },
 	{
-      "id": "pessine_stendardo",
+      "id": "penango_stendardo",
       "address": "Stendardo_Paleologi",
+      "label": "Penango",
+
+      "critical": true,
+      "source": "local",
+
+      "ui": {
+        "hasButton": false,
+        "buttonSize": { "w": 160, "h": 40 }
+      },
+
+      "content": {
+        "newsFeed": "paesi/bandoPenango"
+      },
+
+      "transform": {
+        "position": { "x": -185, "y": 6.0, "z": 29 },
+        "rotation": { "x": 0, "y": 184, "z": 0 },
+        "scale":    { "x": 1.5, "y": 1.5, "z": 1.5 }
+      }
+    },
+	{
+      "id": "pessine",
+      "address": "CastelloExa",
       "label": "Pessine",
 
       "critical": true,
@@ -1690,13 +2104,36 @@
 
       "transform": {
         "position": { "x": -266, "y": 6.0, "z": 130.7 },
-        "rotation": { "x": 0, "y": 0, "z": 0 },
-        "scale":    { "x":1.5, "y": 1.5, "z":1.5 }
+        "rotation": { "x": 0, "y": 127, "z": 0 },
+        "scale":    { "x": 1.3, "y": 1.3, "z": 1.3 }
       }
     },
 	{
-      "id": "pobietto_stendardo",
+      "id": "pessine_stendardo",
       "address": "Stendardo_Paleologi",
+      "label": "Pessine",
+
+      "critical": true,
+      "source": "local",
+
+      "ui": {
+        "hasButton": false,
+        "buttonSize": { "w": 160, "h": 40 }
+      },
+
+      "content": {
+        "newsFeed": "paesi/bandoPessine"
+      },
+
+      "transform": {
+        "position": { "x": -257, "y": 6.0, "z": 136 },
+        "rotation": { "x": 0, "y": 183, "z": 0 },
+        "scale":    { "x": 1.5, "y": 1.5, "z": 1.5 }
+      }
+    },
+	{
+      "id": "pobietto",
+      "address": "CastelloPiccolo",
       "label": "Pobietto",
 
       "critical": true,
@@ -1713,13 +2150,36 @@
 
       "transform": {
         "position": { "x": -88, "y": 6.0, "z": 328.6 },
-        "rotation": { "x": 0, "y": 0, "z": 0 },
-        "scale":    { "x":1.5, "y": 1.5, "z":1.5 }
+        "rotation": { "x": 0, "y": 195, "z": 0 },
+        "scale":    { "x": 1.2, "y": 1.2, "z": 1.2 }
       }
     },
 	{
-      "id": "refrancore_stendardo",
+      "id": "pobietto_stendardo",
       "address": "Stendardo_Paleologi",
+      "label": "Pobietto",
+
+      "critical": true,
+      "source": "local",
+
+      "ui": {
+        "hasButton": false,
+        "buttonSize": { "w": 150, "h": 40 }
+      },
+
+      "content": {
+        "newsFeed": "paesi/bandoPobietto"
+      },
+
+      "transform": {
+        "position": { "x": -96, "y": 6.0, "z": 335 },
+        "rotation": { "x": 0, "y": 139, "z": 0 },
+        "scale":    { "x": 1.5, "y": 1.5, "z": 1.5 }
+      }
+    },
+	{
+      "id": "refrancore",
+      "address": "CastelloPiccolo",
       "label": "Refrancore",
 
       "critical": true,
@@ -1736,13 +2196,36 @@
 
       "transform": {
         "position": { "x": -35.6, "y": 6.0, "z": -188.6 },
-        "rotation": { "x": 0, "y": 0, "z": 0 },
-        "scale":    { "x":1.5, "y": 1.5, "z":1.5 }
+        "rotation": { "x": 0, "y": 136, "z": 0 },
+        "scale":    { "x": 1.2, "y": 1.2, "z": 1.2 }
       }
     },
 	{
-      "id": "roncaglia_stendardo",
+      "id": "refrancore_stendardo",
       "address": "Stendardo_Paleologi",
+      "label": "Refrancore",
+
+      "critical": true,
+      "source": "local",
+
+      "ui": {
+        "hasButton": false,
+        "buttonSize": { "w": 190, "h": 40 }
+      },
+
+      "content": {
+        "newsFeed": "paesi/bandoRefrancore"
+      },
+
+      "transform": {
+        "position": { "x": -30, "y": 6.0, "z": -182 },
+        "rotation": { "x": 0, "y": 193, "z": 0 },
+        "scale":    { "x": 1.5, "y": 1.5, "z": 1.5 }
+      }
+    },
+	{
+      "id": "roncaglia",
+      "address": "CastelloPiccolo",
       "label": "Roncaglia",
 
       "critical": true,
@@ -1759,13 +2242,36 @@
 
       "transform": {
         "position": { "x": 128, "y": 6.0, "z": 57.2 },
-        "rotation": { "x": 0, "y": 0, "z": 0 },
-        "scale":    { "x":1.5, "y": 1.5, "z":1.5 }
+        "rotation": { "x": 0, "y": 190, "z": 0 },
+        "scale":    { "x": 1.2, "y": 1.2, "z": 1.2 }
       }
     },
 	{
-      "id": "rosignano_stendardo",
+      "id": "roncaglia_stendardo",
       "address": "Stendardo_Paleologi",
+      "label": "Roncaglia",
+
+      "critical": true,
+      "source": "local",
+
+      "ui": {
+        "hasButton": false,
+        "buttonSize": { "w": 170, "h": 40 }
+      },
+
+      "content": {
+        "newsFeed": "paesi/bandoRoncaglia"
+      },
+
+      "transform": {
+        "position": { "x": 120, "y": 6.0, "z": 62 },
+        "rotation": { "x": 0, "y": 144, "z": 0 },
+        "scale":    { "x": 1.5, "y": 1.5, "z": 1.5 }
+      }
+    },
+	{
+      "id": "rosignano",
+      "address": "CastelloPiccolo",
       "label": "Rosignano",
 
       "critical": true,
@@ -1782,13 +2288,36 @@
 
       "transform": {
         "position": { "x": 53.9, "y": 6.0, "z": 128.3 },
-        "rotation": { "x": 0, "y": 0, "z": 0 },
-        "scale":    { "x":1.5, "y": 1.5, "z":1.5 }
+        "rotation": { "x": 0, "y": 125, "z": 0 },
+        "scale":    { "x": 1.2, "y": 1.2, "z": 1.2 }
       }
     },
 	{
-      "id": "sala_stendardo",
+      "id": "rosignano_stendardo",
       "address": "Stendardo_Paleologi",
+      "label": "Rosignano",
+
+      "critical": true,
+      "source": "local",
+
+      "ui": {
+        "hasButton": false,
+        "buttonSize": { "w": 190, "h": 40 }
+      },
+
+      "content": {
+        "newsFeed": "paesi/bandoRosignano"
+      },
+
+      "transform": {
+        "position": { "x": 57, "y": 6.0, "z": 135 },
+        "rotation": { "x": 0, "y": 187, "z": 0 },
+        "scale":    { "x": 1.5, "y": 1.5, "z": 1.5 }
+      }
+    },
+	{
+      "id": "sala",
+      "address": "CastelloPiccolo",
       "label": "Sala",
 
       "critical": true,
@@ -1805,13 +2334,36 @@
 
       "transform": {
         "position": { "x": -12, "y": 6.0, "z": 117.8 },
-        "rotation": { "x": 0, "y": 0, "z": 0 },
-        "scale":    { "x":1.5, "y": 1.5, "z":1.5 }
+        "rotation": { "x": 0, "y": 172, "z": 0 },
+        "scale":    { "x": 1.2, "y": 1.2, "z": 1.2 }
       }
     },
 	{
-      "id": "sangiorgio_stendardo",
+      "id": "sala_stendardo",
       "address": "Stendardo_Paleologi",
+      "label": "Sala",
+
+      "critical": true,
+      "source": "local",
+
+      "ui": {
+        "hasButton": false,
+        "buttonSize": { "w": 110, "h": 40 }
+      },
+
+      "content": {
+        "newsFeed": "paesi/bandoSala"
+      },
+
+      "transform": {
+        "position": { "x": -20, "y": 6.0, "z": 122 },
+        "rotation": { "x": 0, "y": 136, "z": 0 },
+        "scale":    { "x": 1.5, "y": 1.5, "z": 1.5 }
+      }
+    },
+	{
+      "id": "sangiorgio",
+      "address": "CastelloPiccolo",
       "label": "San Giorgio",
 
       "critical": true,
@@ -1828,13 +2380,36 @@
 
       "transform": {
         "position": { "x": 75.2, "y": 6.0, "z": 188.5 },
-        "rotation": { "x": 0, "y": 0, "z": 0 },
-        "scale":    { "x":1.5, "y": 1.5, "z":1.5 }
+        "rotation": { "x": 0, "y": 184, "z": 0 },
+        "scale":    { "x": 1.2, "y": 1.2, "z": 1.2 }
       }
     },
 	{
-      "id": "sansalvatore_stendardo",
+      "id": "sangiorgio_stendardo",
       "address": "Stendardo_Paleologi",
+      "label": "San Giorgio",
+
+      "critical": true,
+      "source": "local",
+
+      "ui": {
+        "hasButton": false,
+        "buttonSize": { "w": 200, "h": 40 }
+      },
+
+      "content": {
+        "newsFeed": "paesi/bandoSanGiorgio"
+      },
+
+      "transform": {
+        "position": { "x": 67, "y": 6.0, "z": 192 },
+        "rotation": { "x": 0, "y": 150, "z": 0 },
+        "scale":    { "x": 1.5, "y": 1.5, "z": 1.5 }
+      }
+    },
+	{
+      "id": "sansalvatore",
+      "address": "CastelloPiccolo",
       "label": "San Salvatore",
 
       "critical": true,
@@ -1851,13 +2426,36 @@
 
       "transform": {
         "position": { "x": 317.9, "y": 6.0, "z": -66.2 },
-        "rotation": { "x": 0, "y": 0, "z": 0 },
-        "scale":    { "x":1.5, "y": 1.5, "z":1.5 }
+        "rotation": { "x": 0, "y": 127, "z": 0 },
+        "scale":    { "x": 1.2, "y": 1.2, "z": 1.2 }
       }
     },
 	{
-      "id": "terruggia_stendardo",
+      "id": "sansalvatore_stendardo",
       "address": "Stendardo_Paleologi",
+      "label": "San Salvatore",
+
+      "critical": true,
+      "source": "local",
+
+      "ui": {
+        "hasButton": false,
+        "buttonSize": { "w": 220, "h": 40 }
+      },
+
+      "content": {
+        "newsFeed": "paesi/bandoSanSalvatore"
+      },
+
+      "transform": {
+        "position": { "x": 322, "y": 6.0, "z": -59 },
+        "rotation": { "x": 0, "y": 181, "z": 0 },
+        "scale":    { "x": 1.5, "y": 1.5, "z": 1.5 }
+      }
+    },
+	{
+      "id": "terruggia",
+      "address": "CastelloPiccolo",
       "label": "Terruggia",
 
       "critical": true,
@@ -1874,13 +2472,36 @@
 
       "transform": {
         "position": { "x": 121.2, "y": 6.0, "z": 133.8 },
-        "rotation": { "x": 0, "y": 0, "z": 0 },
-        "scale":    { "x":1.5, "y": 1.5, "z":1.5 }
+        "rotation": { "x": 0, "y": 213, "z": 0 },
+        "scale":    { "x": 1.2, "y": 1.2, "z": 1.2 }
       }
     },
 	{
-      "id": "ticineto_stendardo",
+      "id": "terruggia_stendardo",
       "address": "Stendardo_Paleologi",
+      "label": "Terruggia",
+
+      "critical": true,
+      "source": "local",
+
+      "ui": {
+        "hasButton": false,
+        "buttonSize": { "w": 170, "h": 40 }
+      },
+
+      "content": {
+        "newsFeed": "paesi/bandoTerruggia"
+      },
+
+      "transform": {
+        "position": { "x": 112, "y": 6.0, "z": 137 },
+        "rotation": { "x": 0, "y": 143, "z": 0 },
+        "scale":    { "x": 1.5, "y": 1.5, "z": 1.5 }
+      }
+    },
+	{
+      "id": "ticineto",
+      "address": "CastelloPiccolo",
       "label": "Ticineto",
 
       "critical": true,
@@ -1897,13 +2518,36 @@
 
       "transform": {
         "position": { "x": 300.3, "y": 6.0, "z": 164 },
-        "rotation": { "x": 0, "y": 0, "z": 0 },
-        "scale":    { "x":1.5, "y": 1.5, "z":1.5 }
+        "rotation": { "x": 0, "y": 132, "z": 0 },
+        "scale":    { "x": 1.2, "y": 1.2, "z": 1.2 }
       }
     },
 	{
-      "id": "treville_stendardo",
+      "id": "ticineto_stendardo",
       "address": "Stendardo_Paleologi",
+      "label": "Ticineto",
+
+      "critical": true,
+      "source": "local",
+
+      "ui": {
+        "hasButton": false,
+        "buttonSize": { "w": 160, "h": 40 }
+      },
+
+      "content": {
+        "newsFeed": "paesi/bandoTicineto"
+      },
+
+      "transform": {
+        "position": { "x": 305, "y": 6.0, "z": 168 },
+        "rotation": { "x": 0, "y": 190, "z": 0 },
+        "scale":    { "x": 1.5, "y": 1.5, "z": 1.5 }
+      }
+    },
+	{
+      "id": "treville",
+      "address": "CastelloPiccolo",
       "label": "Treville",
 
       "critical": true,
@@ -1920,13 +2564,36 @@
 
       "transform": {
         "position": { "x": -6.2, "y": 6.0, "z": 163.7 },
-        "rotation": { "x": 0, "y": 0, "z": 0 },
-        "scale":    { "x":1.5, "y": 1.5, "z":1.5 }
+        "rotation": { "x": 0, "y": 185, "z": 0 },
+        "scale":    { "x": 1.2, "y": 1.2, "z": 1.2 }
       }
     },
 	{
-      "id": "valenza_stendardo",
+      "id": "treville_stendardo",
       "address": "Stendardo_Paleologi",
+      "label": "Treville",
+
+      "critical": true,
+      "source": "local",
+
+      "ui": {
+        "hasButton": false,
+        "buttonSize": { "w": 150, "h": 40 }
+      },
+
+      "content": {
+        "newsFeed": "paesi/bandoTreville"
+      },
+
+      "transform": {
+        "position": { "x": -14, "y": 6.0, "z": 166 },
+        "rotation": { "x": 0, "y": 129, "z": 0 },
+        "scale":    { "x": 1.5, "y": 1.5, "z": 1.5 }
+      }
+    },
+	{
+      "id": "valenza",
+      "address": "CastelloPiccolo",
       "label": "Valenza",
 
       "critical": true,
@@ -1943,13 +2610,36 @@
 
       "transform": {
         "position": { "x": 439.3, "y": 6.0, "z": -16.3 },
-        "rotation": { "x": 0, "y": 0, "z": 0 },
-        "scale":    { "x":1.5, "y": 1.5, "z":1.5 }
+        "rotation": { "x": 0, "y": 106, "z": 0 },
+        "scale":    { "x": 1.2, "y": 1.2, "z": 1.2 }
       }
     },
 	{
-      "id": "valmacca_stendardo",
+      "id": "valenza_stendardo",
       "address": "Stendardo_Paleologi",
+      "label": "Valenza",
+
+      "critical": true,
+      "source": "local",
+
+      "ui": {
+        "hasButton": false,
+        "buttonSize": { "w": 150, "h": 40 }
+      },
+
+      "content": {
+        "newsFeed": "paesi/bandoValenza"
+      },
+
+      "transform": {
+        "position": { "x": 444, "y": 6.0, "z": -8 },
+        "rotation": { "x": 0, "y": 165, "z": 0 },
+        "scale":    { "x": 1.5, "y": 1.5, "z": 1.5 }
+      }
+    },
+	{
+      "id": "valmacca",
+      "address": "CastelloPiccolo",
       "label": "Valmacca",
 
       "critical": true,
@@ -1966,13 +2656,36 @@
 
       "transform": {
         "position": { "x": 341.6, "y": 6.0, "z": 171.3 },
-        "rotation": { "x": 0, "y": 0, "z": 0 },
-        "scale":    { "x":1.5, "y": 1.5, "z":1.5 }
+        "rotation": { "x": 0, "y": 200, "z": 0 },
+        "scale":    { "x": 1.2, "y": 1.2, "z": 1.2 }
       }
     },
 	{
-      "id": "vignale_stendardo",
+      "id": "valmacca_stendardo",
       "address": "Stendardo_Paleologi",
+      "label": "Valmacca",
+
+      "critical": true,
+      "source": "local",
+
+      "ui": {
+        "hasButton": false,
+        "buttonSize": { "w": 170, "h": 40 }
+      },
+
+      "content": {
+        "newsFeed": "paesi/bandoValmacca"
+      },
+
+      "transform": {
+        "position": { "x": 333, "y": 6.0, "z": 175 },
+        "rotation": { "x": 0, "y": 145, "z": 0 },
+        "scale":    { "x": 1.5, "y": 1.5, "z": 1.5 }
+      }
+    },
+	{
+      "id": "vignale",
+      "address": "CastelloPiccolo",
       "label": "Vignale",
 
       "critical": true,
@@ -1989,13 +2702,36 @@
 
       "transform": {
         "position": { "x": 48.4, "y": 6.0, "z": -27.4 },
-        "rotation": { "x": 0, "y": 0, "z": 0 },
-        "scale":    { "x":1.5, "y": 1.5, "z":1.5 }
+        "rotation": { "x": 0, "y": 140, "z": 0 },
+        "scale":    { "x": 1.2, "y": 1.2, "z": 1.2 }
       }
     },
 	{
-      "id": "villanova_stendardo",
+      "id": "vignale_stendardo",
       "address": "Stendardo_Paleologi",
+      "label": "Vignale",
+
+      "critical": true,
+      "source": "local",
+
+      "ui": {
+        "hasButton": false,
+        "buttonSize": { "w": 155, "h": 40 }
+      },
+
+      "content": {
+        "newsFeed": "paesi/bandoVignale"
+      },
+
+      "transform": {
+        "position": { "x": 52, "y": 6.0, "z": -20 },
+        "rotation": { "x": 0, "y": 196, "z": 0 },
+        "scale":    { "x": 1.5, "y": 1.5, "z": 1.5 }
+      }
+    },
+	{
+      "id": "villanova",
+      "address": "CastelloPiccolo",
       "label": "Villanova",
 
       "critical": true,
@@ -2012,7 +2748,30 @@
 
       "transform": {
         "position": { "x": 180.5, "y": 6.0, "z": 351.6 },
-        "rotation": { "x": 0, "y": 0, "z": 0 },
+        "rotation": { "x": 0, "y": 184, "z": 0 },
+        "scale":    { "x": 1.2, "y": 1.2, "z": 1.2 }
+      }
+    },
+	{
+      "id": "villanova_stendardo",
+      "address": "Stendardo_Paleologi",
+      "label": "Villanova",
+
+      "critical": true,
+      "source": "local",
+
+      "ui": {
+        "hasButton": false,
+        "buttonSize": { "w": 170, "h": 40 }
+      },
+
+      "content": {
+        "newsFeed": "paesi/bandoVillanova"
+      },
+
+      "transform": {
+        "position": { "x": 171, "y": 6.0, "z": 354 },
+        "rotation": { "x": 0, "y": 140, "z": 0 },
         "scale":    { "x":1.5, "y": 1.5, "z":1.5 }
       }
     }
