@@ -1,6 +1,6 @@
 {
   "_metaDatiJson": {
-    "nomeJson": "mappa",
+    "nomeJson": "mappa_1431",
     "repoJson": "mappa",
     "note": "Release v0.1.2"
   },
@@ -9,7 +9,7 @@
   "generatedAt": "2026-07-24T12:00:00Z",
   "terrain":{
     "layer":{
-      "id": "TL_Spring",
+      "id": "TL_Summer",
       "source": "local"
     }
   },
@@ -86,7 +86,7 @@
     },
 	{
       "id": "chivasso_stendardo",
-      "address": "Stendardo_Savoia",
+      "address": "Stendardo_Paleologi",
       "label": "Chivasso",
 
       "critical": true,
