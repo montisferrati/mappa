@@ -2,14 +2,14 @@
   "_metaDatiJson": {
     "nomeJson": "mappa_1431",
     "repoJson": "mappa",
-    "note": "Release v0.1.2"
+    "note": "Release v0.1.3"
   },
   "version": 1,
   "minAppVersion": 1,
-  "generatedAt": "2026-07-24T12:00:00Z",
+  "generatedAt": "2026-09-14T12:00:00Z",
   "terrain":{
     "layer":{
-      "id": "TL_Summer",
+      "id": "TL_Snow",
       "source": "local"
     }
   },
@@ -270,7 +270,7 @@
     },
 	{
       "id": "acqui_stendardo",
-      "address": "Stendardo_Visconti",
+      "address": "Stendardo_Paleologi",
       "label": "Acqui",
 
       "critical": true,
@@ -890,9 +890,9 @@
       }
     },
 	{
-      "id": "castello_di_annone",
+      "id": "castello_de_non",
       "address": "CastelloGrande",
-      "label": "Castel d'Annone",
+      "label": "Castello de Non",
 
       "critical": true,
       "source": "local",
@@ -913,9 +913,9 @@
       }
     },
 	{
-      "id": "castello_di_annone_stendardo",
+      "id": "castello_de_non_stendardo",
       "address": "Stendardo_Visconti",
-      "label": "Castel d'Annone",
+      "label": "Castello de Non",
 
       "critical": true,
       "source": "local",
@@ -1580,6 +1580,75 @@
       }
     },
 	{
+      "id": "lucedio",
+      "address": "Abazia",
+      "label": "Lucedio",
+
+      "critical": true,
+      "source": "local",
+
+      "ui": {
+        "hasButton": true,
+        "buttonSize": { "w": 160, "h": 40 }
+      },
+
+      "content": {
+        "newsFeed": "paesi/bandoLucedio"
+      },
+
+      "transform": {
+        "position": { "x": -204, "y": 6.0, "z": 476},
+        "rotation": { "x": 0, "y": 130, "z": 0 },
+        "scale":    { "x": 2.3, "y": 2.3, "z": 2.3 }
+      }
+    },
+	{
+      "id": "abazia_lucedio_stendardo",
+      "address": "Stendardo_Lucedio",
+      "label": "Lucedio",
+
+      "critical": true,
+      "source": "local",
+
+      "ui": {
+        "hasButton": false,
+        "buttonSize": { "w": 160, "h": 40 }
+      },
+
+      "content": {
+        "newsFeed": "paesi/bandoLucedio"
+      },
+
+      "transform": {
+        "position": { "x": -215, "y": 6.0, "z": 481},
+        "rotation": { "x": 0, "y": 128, "z": 0 },
+        "scale":    { "x": 1.5, "y": 1.5, "z": 1.5 }
+      }
+    },
+	{
+      "id": "lucedio_stendardo",
+      "address": "Stendardo_Paleologi",
+      "label": "Lucedio",
+
+      "critical": true,
+      "source": "local",
+
+      "ui": {
+        "hasButton": false,
+        "buttonSize": { "w": 160, "h": 40 }
+      },
+
+      "content": {
+        "newsFeed": "paesi/bandoLucedio"
+      },
+
+      "transform": {
+        "position": { "x": -198, "y": 6.0, "z": 485},
+        "rotation": { "x": 0, "y": 180, "z": 0 },
+        "scale":    { "x": 1.5, "y": 1.5, "z": 1.5 }
+      }
+    },
+	{
       "id": "mirabello",
       "address": "CastelloPiccolo",
       "label": "Mirabello",
@@ -1696,7 +1765,7 @@
     },
 	{
       "id": "montemagno_stendardo",
-      "address": "Stendardo_Visconti",
+      "address": "Stendardo_Paleologi",
       "label": "Montemagno",
 
       "critical": true,
@@ -1742,7 +1811,7 @@
     },
 	{
       "id": "morano_stendardo",
-      "address": "Stendardo_Savoia",
+      "address": "Stendardo_Paleologi",
       "label": "Morano",
 
       "critical": true,
@@ -1857,7 +1926,7 @@
     },
 	{
       "id": "odalengo_grande",
-      "address": "TorreD",
+      "address": "Villaggio",
       "label": "Odalengo Grande",
 
       "critical": true,
@@ -1874,8 +1943,8 @@
 
       "transform": {
         "position": { "x": -309.2, "y": 6.0, "z": 191.7 },
-        "rotation": { "x": 0, "y": 310, "z": 0 },
-        "scale":    { "x": 0.3, "y": 0.3, "z": 0.3 }
+        "rotation": { "x": 0, "y": 220, "z": 0 },
+        "scale":    { "x": 0.6, "y": 0.6, "z": 0.6 }
       }
     },
 	{
@@ -1903,7 +1972,7 @@
     },
 	{
       "id": "odalengo_piccolo",
-      "address": "TorreD",
+      "address": "Villaggio",
       "label": "Odalengo Piccolo",
 
       "critical": true,
@@ -1921,7 +1990,7 @@
       "transform": {
         "position": { "x": -243.6, "y": 6.0, "z": 107.6 },
         "rotation": { "x": 0, "y": 20, "z": 0 },
-        "scale":    { "x": 0.3, "y": 0.3, "z": 0.3 }
+        "scale":    { "x": 0.6, "y": 0.6, "z": 0.6 }
       }
     },
 	{
@@ -2810,7 +2879,7 @@
      "transform": {
        "position": { "x": 112.0, "y": 6.0, "z": 230.0 },
        "rotation": { "x": 0, "y": 65, "z": 0 },
-       "scale": { "x": 1.5, "y": 1.5, "z": 1.5 }
+       "scale": { "x": 0.9, "y": 0.9, "z": 0.9 }
      }
    },
    {
@@ -2846,7 +2915,7 @@
      "transform": {
        "position": { "x": -769.2, "y": 6.0, "z": 368.5},
        "rotation": { "x": 0, "y": 60, "z": 0 },
-       "scale": { "x": 1.5, "y": 1.5, "z": 1.5 }
+       "scale": { "x": 0.9, "y": 0.9, "z": 0.9 }
      }
    },
    {
@@ -2882,7 +2951,7 @@
      "transform": {
        "position": { "x": 317.3, "y": 6.0, "z": 166.0 },
        "rotation": { "x": 0, "y": 220, "z": 0 },
-       "scale": { "x": 1.5, "y": 1.5, "z": 1.5 }
+       "scale": { "x": 0.9, "y": 0.9, "z": 0.9 }
      }
    },
    {
@@ -2918,7 +2987,7 @@
      "transform": {
        "position": { "x": 327.3, "y": 6.0, "z": 165 },
        "rotation": { "x": 0, "y": 250, "z": 0 },
-       "scale": { "x": 1.5, "y": 1.5, "z": 1.5 }
+       "scale": { "x": 0.9, "y": 0.9, "z": 0.9 }
      }
    },
    {
@@ -2954,7 +3023,7 @@
      "transform": {
        "position": { "x": 159.8, "y": 6.0, "z": -9.7 },
        "rotation": { "x": 0, "y": 280, "z": 0 },
-       "scale": { "x": 1.5, "y": 1.5, "z": 1.5 }
+       "scale": { "x": 0.9, "y": 0.9, "z": 0.9 }
      }
    },
    {
@@ -2967,7 +3036,7 @@
 	 
      "spawnNear": {
        "cityId": "Odalengo Grande",
-       "offset": { "x": 14, "y": 0.0, "z": 9.0 }
+       "offset": { "x": 29, "y": 0.0, "z": 18.0 }
      },
 	 
      "lifecycle": {
@@ -2988,9 +3057,9 @@
      },
 	 
      "transform": {
-       "position": { "x": -295.2, "y": 6.0, "z": 200.7 },
+       "position": { "x": -280, "y": 6.0, "z": 210 },
        "rotation": { "x": 0, "y": 240, "z": 0 },
-       "scale": { "x": 1.5, "y": 1.5, "z": 1.5 }
+       "scale": { "x": 0.9, "y": 0.9, "z": 0.9 }
      }
    },
    {
@@ -3003,7 +3072,7 @@
 	 
      "spawnNear": {
        "cityId": "Odalengo Piccolo",
-       "offset": { "x": -10, "y": 0.0, "z": 0 }
+       "offset": { "x": 23, "y": 0.0, "z": 0 }
      },
 	 
      "lifecycle": {
@@ -3024,9 +3093,9 @@
      },
 	 
      "transform": {
-       "position": { "x": -253.6, "y": 6.0, "z": 107.6 },
-       "rotation": { "x": 0, "y": 90, "z": 0 },
-       "scale": { "x": 1.5, "y": 1.5, "z": 1.5 }
+       "position": { "x": -220, "y": 6.0, "z": 107 },
+       "rotation": { "x": 0, "y": 260, "z": 0 },
+       "scale": { "x": 0.9, "y": 0.9, "z": 0.9 }
      }
    }
   ]

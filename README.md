@@ -2,9 +2,9 @@
 
 Folder/Json:  
 
-release_v1/mappa.json   </br>
-
+release_v1/mappa.json         </br>
+release_1431/mappa_1431.json
 
 Tags:
 
-v0.1.2 -> 24 Luglio 26
+v0.1.3 -> 19 Settembre 2026
