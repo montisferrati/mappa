@@ -1,8 +1,8 @@
 {
   "_metaDatiJson": {
-    "nomeJson": "mappa_1431",
+    "nomeJson": "mappa",
     "repoJson": "mappa",
-    "note": "Release v0.1.3"
+    "note": "Release v0.1.4"
   },
   "version": 1,
   "minAppVersion": 1,

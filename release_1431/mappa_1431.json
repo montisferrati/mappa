@@ -2,11 +2,11 @@
   "_metaDatiJson": {
     "nomeJson": "mappa_1431",
     "repoJson": "mappa",
-    "note": "Release v0.1.3"
+    "note": "Release v0.1.4"
   },
   "version": 1,
   "minAppVersion": 1,
-  "generatedAt": "2026-09-14T12:00:00Z",
+  "generatedAt": "2026-09-19T12:00:00Z",
   "terrain":{
     "layer":{
       "id": "TL_Snow",

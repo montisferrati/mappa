@@ -7,4 +7,4 @@ release_1431/mappa_1431.json
 
 Tags:
 
-v0.1.3 -> 19 Settembre 2026
+v0.1.4 -> 19 Settembre 2026
