@@ -2,11 +2,11 @@
   "_metaDatiJson": {
     "nomeJson": "mappa_1431",
     "repoJson": "mappa",
-    "note": "Release v0.1.4"
+    "note": "Release v0.1.5"
   },
   "version": 1,
   "minAppVersion": 1,
-  "generatedAt": "2026-09-19T12:00:00Z",
+  "generatedAt": "2026-11-09T12:00:00Z",
   "terrain":{
     "layer":{
       "id": "TL_Snow",
@@ -33,7 +33,7 @@
       },
 
       "transform": {
-        "position": { "x": 128, "y": 6.0, "z": 254 },
+        "position": { "x": 128, "y": 8.3, "z": 254 },
         "rotation": { "x": 0, "y": 170, "z": 0 },
         "scale":    { "x": 1.2, "y": 1.2, "z": 1.2 }
       }
@@ -56,7 +56,7 @@
       },
 
       "transform": {
-        "position": { "x": 135, "y": 6.0, "z": 260 },
+        "position": { "x": 135, "y": 8.3, "z": 260 },
         "rotation": { "x": 0, "y": 180, "z": 0 },
         "scale":    { "x": 1.5, "y": 1.5, "z": 1.5 }
       }
@@ -79,7 +79,7 @@
       },
 
       "transform": {
-        "position": { "x": -744.2, "y": 6.0, "z": 370.5 },
+        "position": { "x": -744.2, "y": 9.6, "z": 370.5 },
         "rotation": { "x": 0, "y": 210, "z": 0 },
         "scale":    { "x": 1.3, "y": 1.3, "z": 1.3 }
       }
@@ -102,7 +102,7 @@
       },
 
       "transform": {
-        "position": { "x": -754.2, "y": 6.0, "z": 370.5 },
+        "position": { "x": -754.2, "y": 9.5, "z": 370.5 },
         "rotation": { "x": 0, "y": 140, "z": 0 },
         "scale":    { "x": 1.5, "y": 1.5, "z": 1.5 }
       }
@@ -125,7 +125,7 @@
       },
 
       "transform": {
-        "position": { "x": -151.7, "y": 6.0, "z": 64.5 },
+        "position": { "x": -151.7, "y": 12.2, "z": 64.5 },
         "rotation": { "x": 0, "y": 100, "z": 0 },
         "scale":    { "x": 1.2, "y": 1.2, "z": 1.2 }
       }
@@ -148,7 +148,7 @@
       },
 
       "transform": {
-        "position": { "x": -144.7, "y": 6.0, "z": 70.5 },
+        "position": { "x": -144.7, "y": 12.1, "z": 70.5 },
         "rotation": { "x": 0, "y": 210, "z": 0 },
         "scale":    { "x": 1.5, "y": 1.5, "z": 1.5 }
       }
@@ -171,7 +171,7 @@
       },
 
       "transform": {
-        "position": { "x": -48.1, "y": 6.0, "z": 270.3 },
+        "position": { "x": -48.1, "y": 8.8, "z": 270.3 },
         "rotation": { "x": 0, "y": 220, "z": 0 },
         "scale":    { "x": 1.2, "y": 1.2, "z": 1.2 }
       }
@@ -194,7 +194,7 @@
       },
 
       "transform": {
-        "position": { "x": -58.1, "y": 6.0, "z": 270.3 },
+        "position": { "x": -58.1, "y": 8.8, "z": 270.3 },
         "rotation": { "x": 0, "y": 150, "z": 0 },
         "scale":    { "x": 1.5, "y": 1.5, "z": 1.5 }
       }
@@ -217,7 +217,7 @@
       },
 
       "transform": {
-        "position": { "x": -104.2, "y": 6.0, "z": 380.1},
+        "position": { "x": -104.2, "y": 8.6, "z": 380.1},
         "rotation": { "x": 0, "y": 140, "z": 0 },
         "scale":    { "x": 1.2, "y": 1.2, "z": 1.2 }
       }
@@ -240,8 +240,78 @@
       },
 
       "transform": {
-        "position": { "x": -97, "y": 6.0, "z": 386.1},
+        "position": { "x": -97, "y": 8.5, "z": 386.1},
         "rotation": { "x": 0, "y": 170, "z": 0 },
+        "scale":    { "x": 1.5, "y": 1.5, "z": 1.5 }
+      }
+    },
+	
+	{
+      "id": "cocconato",
+      "address": "CastelloPiccolo",
+      "label": "Cocconato",
+
+      "critical": true,
+      "source": "local",
+
+      "ui": {
+        "hasButton": true,
+        "buttonSize": { "w": 180, "h": 40 }
+      },
+
+      "content": {
+        "newsFeed": "paesi/bandoTrino"
+      },
+
+      "transform": {
+        "position": { "x": -512, "y": 6.0, "z": 141},
+        "rotation": { "x": 0, "y": 170, "z": 0 },
+        "scale":    { "x": 1.2, "y": 1.2, "z": 1.2 }
+      }
+    },
+	{
+      "id": "radicati_cocconato_stendardo",
+      "address": "Stendardo_Radicati",
+      "label": "Cocconato",
+
+      "critical": true,
+      "source": "local",
+
+      "ui": {
+        "hasButton": false,
+        "buttonSize": { "w": 180, "h": 40 }
+      },
+
+      "content": {
+        "newsFeed": "paesi/bandoCocconato"
+      },
+
+      "transform": {
+        "position": { "x": -522, "y": 6.0, "z": 147},
+        "rotation": { "x": 0, "y": 132, "z": 0 },
+        "scale":    { "x": 1.5, "y": 1.5, "z": 1.5 }
+      }
+    },
+	{
+      "id": "cocconato_stendardo",
+      "address": "Stendardo_Paleologi",
+      "label": "Cocconato",
+
+      "critical": true,
+      "source": "local",
+
+      "ui": {
+        "hasButton": false,
+        "buttonSize": { "w": 180, "h": 40 }
+      },
+
+      "content": {
+        "newsFeed": "paesi/bandoCocconato"
+      },
+
+      "transform": {
+        "position": { "x": -510, "y": 6.0, "z": 150},
+        "rotation": { "x": 0, "y": 180, "z": 0 },
         "scale":    { "x": 1.5, "y": 1.5, "z": 1.5 }
       }
     },
@@ -263,7 +333,7 @@
       },
 
       "transform": {
-        "position": { "x": 174.2, "y": 6.0, "z": -776.4 },
+        "position": { "x": 174.2, "y": 9.6, "z": -776.4 },
         "rotation": { "x": 0, "y": 105, "z": 0 },
         "scale":    { "x": 1.2, "y": 1.2, "z": 1.2 }
       }
@@ -286,7 +356,7 @@
       },
 
       "transform": {
-        "position": { "x": 181.2, "y": 6.0, "z": -770.4 },
+        "position": { "x": 181.2, "y": 10.4, "z": -770.4 },
         "rotation": { "x": 0, "y": 150, "z": 0 },
         "scale":    { "x": 1.5, "y": 1.5, "z": 1.5 }
       }
