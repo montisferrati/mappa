@@ -2,7 +2,7 @@
 
 Tags:
 
-v0.1.6 -> 10 Novembre 2026
+v0.1.7 -> 10 Novembre 2026
 
 Folder/Json:  
 

@@ -2,11 +2,11 @@
   "_metaDatiJson": {
     "nomeJson": "mappa",
     "repoJson": "mappa",
-    "note": "Release v0.1.5"
+    "note": "Release v0.1.7"
   },
   "version": 1,
   "minAppVersion": 1,
-  "generatedAt": "2026-11-09T12:00:00Z",
+  "generatedAt": "2026-11-10T12:00:00Z",
   "terrain":{
     "layer":{
       "id": "TL_Snow",
@@ -294,7 +294,7 @@
     },
 	{
       "id": "cocconato_stendardo",
-      "address": "Stendardo_Paleologi",
+      "address": "Stendardo_Visconti",
       "label": "Cocconato",
 
       "critical": true,
